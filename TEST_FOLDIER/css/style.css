@@ -41,9 +41,10 @@ body{
 }
 .webname{
 	position:absolute;
-	background:#0F9;
-	height:60px;
-	width:225px;
+	background:url(../images/LOL-Dinger-NAME.png) no-repeat;
+	background-size:contain;
+	height:150px;
+	width:400px;
 	margin: 45px 0 0 400px;
 	border-radius:10px;
 }
