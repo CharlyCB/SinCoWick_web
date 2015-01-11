@@ -4,11 +4,15 @@
 	font-family:Verdana, Geneva, sans-serif;
 	padding:0;
 	margin:0;
+	background:url(../images/lol.jpg) no-repeat fixed;
 }
 .cleaner{
 	clear:both;
 }
-
+/*La lineas del body deben ser eliminadas*/
+body{
+	height: 500000px;
+}
 .header_wrap{
 	margin-top:35px;
 	background:#999;
@@ -20,13 +24,25 @@
 	height:150px;
 	
 }
-
 .logo{
 	position:absolute;
 	background:#0F0;
 	height:75px;
-	width:150px;
+	width:175px;
 	margin:30px 0 0 20px;
+	border-radius:10px;
+}
+.webname{
+	position:absolute;
+	background:#0F9;
+	height:60px;
+	width:225px;
+	margin: 45px 0 0 300px;
+	border-radius:10px;
+}
+.redsocial{
+	float:right;
+	margin: 100px 20px 0 0;
 }
 .menu{
 	top:0;
