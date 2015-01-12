@@ -168,7 +168,11 @@ body{
     line-height: 28px;
     padding: 0 14px;
     margin: 6px 0;
-    text-decoration: none;
+	
+	margin-left: 24px;
+	margin-right: 24px;
+    
+	text-decoration: none;
     /* animamos el cambio de color de los textos */
     -webkit-transition: color .2s ease-in-out;
     -moz-transition: color .2s ease-in-out;
