@@ -83,7 +83,7 @@ body{
 
 	top:0;
 	position:fixed;
-	background:#F00;
+	background:url(../images/Menu-back.png);
 	width:100%;
 	height:50px;
 	z-index:2;
@@ -91,7 +91,6 @@ body{
 .menu{
 	margin:0 auto;
 	height:100%;
-	background:#0F0;
 	width:1110px;
 	padding: 0 30px 0 30px ;
 }
@@ -112,4 +111,25 @@ body{
 	float: right;
 	width:400px;
 }
-
+/*Interior del MENU*/
+.menu ul{
+	list-style:none;
+}
+.menu ul li{
+	float:left;
+	height:40px;
+	padding: 10px 12px 0 12px;
+	background:#06F;
+	
+		
+	border-radius:10px;
+	
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+.menu ul li a{
+	display:block;
+	text-decoration:none;
+	font-weight:bold;
+	color:#FFF;
+}
