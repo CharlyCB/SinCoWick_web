@@ -177,7 +177,7 @@ body{
   #menu li:first-child a { border-left: none; }
   #menu li:last-child a{ border-right: none; }
   /* efecto hover cambia el color */
-  #menu li:hover > a { color: #00F; }
+  #menu li:hover > a { color:#FFF; }
 
   /* los submenús */
   #menu ul {
@@ -229,6 +229,13 @@ body{
 	padding: 0 5px 5px 15px;
 	width:100px;
   }
+  #menu ul li:hover{
+	  background:url(../images/MENUbg-activo.jpg);
+  }
+  #menu li:hover{
+	  background:url(../images/MENUbg-activo.jpg);
+  }
+  
  /*FIN  MENU*/
  
 .menuBG{
