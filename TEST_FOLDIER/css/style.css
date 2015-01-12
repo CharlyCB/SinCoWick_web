@@ -235,10 +235,10 @@ body{
 	width:100px;
   }
   #menu ul li:hover{
-	  background:url(../images/MENUbg-activo.jpg);
+	  background:url(../images/MENUbg-activo.png);
   }
   #menu li:hover{
-	  background:url(../images/MENUbg-activo.jpg);
+	  background:url(../images/MENUbg-activo.png);
   }
   
  /*FIN  MENU*/
