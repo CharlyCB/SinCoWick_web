@@ -131,7 +131,7 @@ body{
     margin: 0 auto; /* si queremos centrarlo */
     padding: 0;
     /* la altura y su ancho dependerán de los textos */
-    height: 40px; 
+    height: 41px; 
     width:auto;
     /* el color de fondo */
    /* background: -moz-linear-gradient(#555,#222);
@@ -148,15 +148,17 @@ body{
   #menu li {
     display: block;
     float: left; /* la lista se ve horizontal */
-    height: 40px;
+    height: 41px;
     list-style: none;
     margin: 0;
     padding: 0;
     position: relative;
-  }
-  #menu li a {
-    border-left: 1px solid #000;
+	border-left: 1px solid #000;
     border-right: 1px solid #666;
+  }
+  #menu #firstchild{ border-left:none; }
+  #menu #lastchild{ border-right:none; }
+  #menu li a {
     color: #000;
     display: block;
     font-family: Tahoma;
@@ -174,8 +176,6 @@ body{
     transition: color .2s ease-in-out;
   }
   /* eliminamos los bordes del primer y el último */
-  #menu li:first-child a { border-left: none; }
-  #menu li:last-child a{ border-right: none; }
   /* efecto hover cambia el color */
   #menu li:hover > a { color:#FFF; }
 
@@ -242,7 +242,6 @@ body{
 	background-image: url(../images/MENUbg.png);
 	z-index:50px;
 }
-
 .marcomenu{
 	background-image: url(../images/MARCOhead.png);
 	z-index: -9;
