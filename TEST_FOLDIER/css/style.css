@@ -160,7 +160,7 @@ body{
   #menu #firstchild{ border-left:none; }
   #menu #lastchild{ border-right:none; }
   #menu li a {
-    color: #000;
+    color:#FFF;
     display: block;
     font-family: Tahoma;
     font-size: 13px;
@@ -182,7 +182,7 @@ body{
   }
   /* eliminamos los bordes del primer y el último */
   /* efecto hover cambia el color */
-  #menu li:hover > a { color:#FFF; }
+  #menu li:hover > a { color:#000; }
 
   /* los submenús */
   #menu ul {
@@ -251,4 +251,8 @@ body{
 	background-image: url(../images/MARCOhead.png);
 	z-index: -9;
 	position: absolute;
+}
+
+.footer{
+	
 }
