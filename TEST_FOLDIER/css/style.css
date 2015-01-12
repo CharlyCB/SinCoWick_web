@@ -120,8 +120,9 @@ body{
 	.menu_webname{
 		background:url(../images/LOL-Dinger-NAME.png) no-repeat;
 		background-size:cover;
-		height:41px;
-		width:250px;
+		height:35px;
+		width:188px;
+		margin-top: 4px;
 		float:left;
 		margin-right:30px;
 	}
