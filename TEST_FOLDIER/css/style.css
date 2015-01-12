@@ -9,6 +9,7 @@
 	clear:both;
 }
 body{
+	height:55555555px;
 	background:url(../images/lol.jpg) no-repeat fixed;
 }
 .header_wrap{
@@ -116,7 +117,14 @@ body{
 }
 /*Interior del MENU*/
 /*NO TOCAR TENGO QUE ARREGLARLO*/
-/
+	.menu_webname{
+		background:url(../images/LOL-Dinger-NAME.png) no-repeat;
+		background-size:cover;
+		height:41px;
+		width:250px;
+		float:left;
+		margin-right:30px;
+	}
   #menu  {
     border-radius: 50px;
 	list-style-type: none;
@@ -126,7 +134,6 @@ body{
     height: 40px; 
     width:auto;
     /* el color de fondo */
-    background: #FFF;
    /* background: -moz-linear-gradient(#555,#222);
     background: -webkit-linear-gradient(#555,#222);
     background: -o-linear-gradient(#555,#222);
@@ -182,7 +189,6 @@ body{
     position:absolute;
     top: 40px; /* se ubican debajo del enlace principal */
     /* el color de fondo */
-    background: #999;
   /*  background: -moz-linear-gradient(#222,#555);
     background: -webkit-linear-gradient(#22,#555);
     background: -o-linear-gradient(#222,#555);
@@ -216,22 +222,22 @@ body{
     padding: 0;
   }
   #menu ul li a {
-	border-radius: 50px;
-    border: none;
-    border-bottom: 1px solid #111;
+	border:none;
+    border-bottom:3px solid #000;
     margin: 0;
     /* el ancho dependerá de los textos a utilizar */
-    padding: 5px 20px;
-    width:175px;
+	padding: 0 5px 5px 15px;
+	width:100px;
   }
  /*FIN  MENU*/
  
 .menuBG{
 	background-image: url(../images/MENUbg.png);
+	z-index:50px;
 }
 
 .marcomenu{
 	background-image: url(../images/MARCOhead.png);
-	z-index: 10;
+	z-index: -9;
 	position: absolute;
 }
