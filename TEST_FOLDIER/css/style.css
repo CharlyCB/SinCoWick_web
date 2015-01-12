@@ -15,9 +15,9 @@ body{
 	margin:41px 0 0 0;
 }
 .header{
-	background:url(../images/c5011e9fcfe059c65868acd2468a47b4.jpg) no-repeat;
-	background-size:cover;
-	background-position: 0px -250px;
+	background:url(../images/MARCOhead.png);
+	background-size:contain;
+	background-position: 0px 0px;
 	margin:0 auto;
 	width: 1110px;
 	height:150px;
@@ -26,18 +26,21 @@ body{
 }
 .logo{
 	position: absolute;
-	height: 100px;
-	width: 250px;
-	margin: 30px 0 0 20px;
+	height: 150px;
+	width: 1110px;
+	margin-left:-30px;
 	border-radius: 10px;
-	background:url(../images/Logo-LOL-Dinger.png) no-repeat;
-	background-size:100% 100%;
-	
+	background:url(../images/c5011e9fcfe059c65868acd2468a47b4.jpg) no-repeat;
+	padding: 0 30px 0 30px;
+	background-size:cover;
+	background-position: 0px -250px;
+	/*
 	border-radius:10px;
 	-moz-border-radius: 10px 10px 10px 10px;
-	-webkit-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;*/
 	
 	border: 0px solid #000000;
+	z-index:-10;
 }
 .webname{
 	position:absolute;
@@ -45,7 +48,7 @@ body{
 	background-size:contain;
 	height:150px;
 	width:400px;
-	margin: 45px 0 0 400px;
+	margin: 45px 0 0 100px;
 	border-radius:10px;
 }
 .redsocial{
