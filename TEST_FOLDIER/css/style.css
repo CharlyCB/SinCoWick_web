@@ -9,14 +9,15 @@
 	clear:both;
 }
 body{
-	height: 500000px; /* esta linea sera borrada en el futuro*/
 	background:url(../images/lol.jpg) no-repeat fixed;
 }
 .header_wrap{
-	margin:50px 0 30px 0;
+	margin:41px 0 0 0;
 }
 .header{
-	background:#00C;
+	background:url(../images/c5011e9fcfe059c65868acd2468a47b4.jpg) no-repeat;
+	background-size:cover;
+	background-position: 0px -250px;
 	margin:0 auto;
 	width: 1110px;
 	height:150px;
@@ -25,15 +26,14 @@ body{
 }
 .logo{
 	position: absolute;
-	height: 150px;
+	height: 100px;
 	width: 250px;
 	margin: 30px 0 0 20px;
 	border-radius: 10px;
 	background:url(../images/Logo-LOL-Dinger.png) no-repeat;
-	background-size:contain;
+	background-size:100% 100%;
 	
 	border-radius:10px;
-	
 	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
 	
