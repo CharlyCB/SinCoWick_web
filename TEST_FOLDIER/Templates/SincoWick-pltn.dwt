@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/SincoWick-pltn.dwt" codeOutsideHTMLIsLocked="false" -->
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href='images/Favicon.png' rel='shortcut icon'/><!--ICONO DE BARRA DE NAVEGACION-->
@@ -47,13 +47,13 @@
   <div class="cleaner"></div>
   
   
-<!-- InstanceBeginEditable name="CONTENT" -->
+<!-- TemplateBeginEditable name="CONTENT" -->
   <div class="container_wrap">
     <div class="right_bar"> DERECHA </div>
     <div class="container"> <img src="images/loading.gif" width="92" height="92" /> CONTENEDOR </div>
   </div>
 </div>
-<!-- InstanceEndEditable -->
+<!-- TemplateEndEditable -->
 
 
 <div class="footer">
@@ -71,4 +71,4 @@
 
 
 </body>
-<!-- InstanceEnd --></html>
+</html>
