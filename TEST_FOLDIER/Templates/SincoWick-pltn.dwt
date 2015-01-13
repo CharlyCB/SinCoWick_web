@@ -48,11 +48,13 @@
   
   
 <!-- TemplateBeginEditable name="CONTENT" -->
-  <div class="container_wrap">
-    <div class="right_bar"> DERECHA </div>
-    <div class="container"> <img src="images/loading.gif" width="92" height="92" /> CONTENEDOR </div>
-  </div>
-</div>
+
+
+
+
+
+
+
 <!-- TemplateEndEditable -->
 
 
