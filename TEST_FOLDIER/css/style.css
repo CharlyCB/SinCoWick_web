@@ -14,6 +14,7 @@ html, body{
 .content{
 	min-height:100%;
 	background:url(../images/lol.jpg) no-repeat;
+	background-position: center top;
 }
 .header_wrap{
 	margin:41px 0 0 0;
@@ -26,6 +27,7 @@ html, body{
 	height:150px;
 	background-position: 0px -250px;
 	padding: 0 30px 0 30px ;
+	border-radius: 8px;
 }
 
 .logo{
@@ -33,7 +35,7 @@ html, body{
 	height: 150px;
 	width: 1110px;
 	margin-left:-30px;
-	border-radius: 10px;
+	border-radius: 8px;
 	background:url(../images/MARCOhead.png);
 	background-size:contain;
 	padding: 0 30px 0 30px;
@@ -106,7 +108,7 @@ html, body{
 }
 .container {
 	background-color: #009;
-	height: 50px;
+/*	height: 50px;*/
 	float: right;
 	width:710px;
 }
@@ -126,6 +128,9 @@ html, body{
 		margin-top: 4px;
 		float:left;
 		margin-right:30px;
+		
+		/* PRUEBA */
+		
 	}
   #menu  {
     border-radius: 50px;
