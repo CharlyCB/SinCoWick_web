@@ -57,7 +57,7 @@ html, body{
 }
 .redsocial{
 	float:right;
-	margin: 100px 20px 0 0;
+	margin: 100px -8px 0 0;
 }
 .redsocial ul{
 	list-style:none;
