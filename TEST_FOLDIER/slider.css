@@ -2,14 +2,14 @@
 /* CSS Document */
 body{
   background: #ccc;
-  width: 900px;
+  width: 1110px;
   margin: 0 auto;
   padding: 20px;
 }
 .slider{
   background: #222 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-1.jpg);
   position: relative;
-  width: 900px;
+  width: 1110px;
   height: 300px;
   cursor: pointer;
   overflow: hidden;
@@ -26,33 +26,49 @@ body{
 
 .slides:nth-child(1){
   background: #222 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-10.jpg);
-  
 }
 
 .slides:nth-child(2){
   background: #333 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-5.jpg);
-  margin-left: 150px;
+  margin-left: 111px;
 }
 
 .slides:nth-child(3){
   background: #444 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-7.jpg);
-  margin-left: 300px;
+  margin-left: 222px;
 }
 
 .slides:nth-child(4){
   background: #555 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-6.jpg);
-  margin-left: 450px;
+  margin-left: 333px;
 }
 
 .slides:nth-child(5){
   background: #666 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-2.jpg);
-  margin-left: 600px;
+  margin-left: 444px;
 }
 
 .slides:nth-child(6){
   background: #777 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-1.jpg);
-  margin-left: 750px;
+  margin-left: 555px;
 }
+.slides:nth-child(7){
+  background: #777 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-1.jpg);
+  margin-left: 666px;
+}
+.slides:nth-child(8){
+  background: #777 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-1.jpg);
+  margin-left: 777px;
+}
+.slides:nth-child(9){
+  background: #777 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-1.jpg);
+  margin-left: 888px;
+}
+.slides:nth-child(10){
+  background: #777 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-1.jpg);
+  margin-left: 999px;
+}
+
 
 .slides:hover{
   margin: 0 50px 0 50px;
