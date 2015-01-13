@@ -1,2 +1,112 @@
 @charset "utf-8";
 /* CSS Document */
+body{
+  background: #ccc;
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.slider{
+  background: #222 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-1.jpg);
+  position: relative;
+  width: 900px;
+  height: 300px;
+  cursor: pointer;
+  overflow: hidden;
+  border: solid 7px #111; 
+}
+
+.slides{
+  width: 800px;
+  height: 300px;
+  float: left;
+  position: absolute;
+  transition: margin .3s linear;
+}
+
+.slides:nth-child(1){
+  background: #222 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-10.jpg);
+  
+}
+
+.slides:nth-child(2){
+  background: #333 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-5.jpg);
+  margin-left: 150px;
+}
+
+.slides:nth-child(3){
+  background: #444 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-7.jpg);
+  margin-left: 300px;
+}
+
+.slides:nth-child(4){
+  background: #555 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-6.jpg);
+  margin-left: 450px;
+}
+
+.slides:nth-child(5){
+  background: #666 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-2.jpg);
+  margin-left: 600px;
+}
+
+.slides:nth-child(6){
+  background: #777 url(http://azik.me/wp-content/uploads/2012/10/nature-q-c-900-300-1.jpg);
+  margin-left: 750px;
+}
+
+.slides:hover{
+  margin: 0 50px 0 50px;
+  position: absolute;
+  z-index: 99998;
+  transition: .1s linear;
+}
+
+.slides:hover .title{
+  transform: translateY(-140px);
+  transition: .5s linear;
+}
+
+.title{
+  background: rgba(255, 255, 255, .7);
+  margin: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -150px;
+}
+
+q{
+  font-size: 16px;
+  font-style: italic;
+}
+
+.author{
+  margin: 0 0 0 20px;
+}
+
+::selection{
+  background: #222;
+  color: #fff;
+}
+
+.github img{
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  border: 0;
+  z-index: 99999;
+}
+
+h3{
+  font-family: "Courier";
+  color: #111;
+  text-align: right;
+  position: absolute;
+  bottom: -10px;
+  right: 10px;
+}
+
+h3 a{
+  color: #111;
+  text-decoration: none;
+}
