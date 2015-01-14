@@ -259,8 +259,6 @@ html, body{
 	background:url(../images/HeimerMINIico.png) #000 no-repeat;
 	background-size:contain;
 	background-position:right;
-	border-radius: 40px 40px 0px 0px ;
-	
 }
 .footer .legal{
 	margin: 0 auto;
