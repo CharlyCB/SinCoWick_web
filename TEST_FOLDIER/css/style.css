@@ -249,11 +249,6 @@ html, body{
   }
   
  /*FIN  MENU*/
- 
-.menuBG{
-	background-image: url(../images/MENUbg.png);
-	z-index: 50;
-}
 .marcomenu{
 	background-image: url(../images/MARCOhead.png);
 	position: absolute;
@@ -269,4 +264,16 @@ html, body{
 .footer .legal{
 	margin: 0 auto;
 	padding: 10px;
+	font-size: 15px;
+	color: #FFF;
+}
+
+.copyright{
+	float: rigth;
+	width: 157px;
+	color: white;
+	padding: 0px;
+	margin: 55px 1100px auto;
+	font-size: 10px;
+	position: absolute;
 }
