@@ -24,60 +24,16 @@ body{
   transition: margin .3s linear;
 }
 
-.slides:nth-child(1){
-  background: url(images/splashes/id_1.jpg) no-repeat;
-  background-size:contain;
-}
-
-.slides:nth-child(2){
-  background: url(images/splashes/id_1.jpg) no-repeat;
-  background-size:contain;
-  margin-left: 111px;
-}
-
-.slides:nth-child(3){
-  background: url(images/splashes/id_1.jpg) no-repeat;
-  background-size:contain;
-  margin-left: 222px;
-}
-
-.slides:nth-child(4){
-  background: url(images/splashes/id_1.jpg) no-repeat;
-  background-size:contain;
-  margin-left: 333px;
-}
-
-.slides:nth-child(5){
-  background: url(images/splashes/id_1.jpg) no-repeat;
-  background-size:contain;
-  margin-left: 444px;
-}
-
-.slides-end:nth-child(6){
-  background: url(images/splashes/id_1.jpg) no-repeat;
-  background-size:contain;
-  margin-left: 555px;
-}
-.slides-end:nth-child(7){
-  background: url(images/splashes/id_1.jpg) no-repeat;
-  background-size:contain;
-  margin-left: 666px;
-}
-.slides-end:nth-child(8){
-  background: url(images/splashes/id_1.jpg) no-repeat;
-  background-size:contain;
-  margin-left: 777px;
-}
-.slides-end:nth-child(9){
-  background: url(images/splashes/id_1.jpg) no-repeat;
-  background-size:contain;
-  margin-left: 888px;
-}
-.slides-end:nth-child(10){
-  background: url(images/splashes/id_1.jpg) no-repeat;
-  background-size:contain;
-  margin-left: 999px;
-}
+.slides:nth-child(1){ margin-left: 0px;}
+.slides:nth-child(2){ margin-left: 111px;}
+.slides:nth-child(3){ margin-left: 222px;}
+.slides:nth-child(4){ margin-left: 333px;}
+.slides:nth-child(5){ margin-left: 444px;}
+.slides-end:nth-child(6){ margin-left: 555px;}
+.slides-end:nth-child(7){ margin-left: 666px;}
+.slides-end:nth-child(8){ margin-left: 777px;}
+.slides-end:nth-child(9){ margin-left: 888px;}
+.slides-end:nth-child(10){ margin-left: 999px;}
 
 
 
@@ -148,3 +104,137 @@ h3 a{
   color: #111;
   text-decoration: none;
 }
+/*Los Backgraund van por id, ejemplo el div con id dbid_1 tendra el fondo de annie*/
+#bdid_1{background:url(images/splashes/id_1.jpg) no-repeat; background-size:contain;}
+#bdid_2{background:url(images/splashes/id_2.jpg) no-repeat; background-size:contain;}
+#bdid_3{background:url(images/splashes/id_3.jpg) no-repeat; background-size:contain;}
+#bdid_4{background:url(images/splashes/id_4.jpg) no-repeat; background-size:contain;}
+#bdid_5{background:url(images/splashes/id_5.jpg) no-repeat; background-size:contain;}
+#bdid_6{background:url(images/splashes/id_6.jpg) no-repeat; background-size:contain;}
+#bdid_7{background:url(images/splashes/id_7.jpg) no-repeat; background-size:contain;}
+#bdid_8{background:url(images/splashes/id_8.jpg) no-repeat; background-size:contain;} 
+#bdid_9{background:url(images/splashes/id_9.jpg) no-repeat; background-size:contain;}
+
+#bdid_10{background:url(images/splashes/id_10.jpg) no-repeat; background-size:contain;}
+#bdid_11{background:url(images/splashes/id_11.jpg) no-repeat; background-size:contain;}
+#bdid_12{background:url(images/splashes/id_12.jpg) no-repeat; background-size:contain;}
+#bdid_13{background:url(images/splashes/id_13.jpg) no-repeat); background-size:contain;}
+#bdid_14{background:url(images/splashes/id_14.jpg) no-repeat; background-size:contain;}
+#bdid_15{background:url(images/splashes/id_15.jpg) no-repeat; background-size:contain;}
+#bdid_16{background:url(images/splashes/id_16.jpg) no-repeat; background-size:contain;}
+#bdid_17{background:url(images/splashes/id_17.jpg) no-repeat; background-size:contain;}
+#bdid_18{background:url(images/splashes/id_18.jpg) no-repeat; background-size:contain;}
+#bdid_19{background:url(images/splashes/id_19.jpg) no-repeat; background-size:contain;}
+
+#bdid_20{background:url(images/splashes/id_20.jpg) no-repeat; background-size:contain;}
+#bdid_21{background:url(images/splashes/id_21.jpg) no-repeat; background-size:contain;}
+#bdid_22{background:url(images/splashes/id_22.jpg) no-repeat; background-size:contain;}
+#bdid_23{background:url(images/splashes/id_23.jpg) no-repeat; background-size:contain;}
+#bdid_24{background:url(images/splashes/id_24.jpg) no-repeat; background-size:contain;}
+#bdid_25{background:url(images/splashes/id_25.jpg) no-repeat; background-size:contain;}
+#bdid_26{background:url(images/splashes/id_26.jpg) no-repeat; background-size:contain;}
+#bdid_27{background:url(images/splashes/id_27.jpg) no-repeat; background-size:contain;}
+#bdid_28{background:url(images/splashes/id_28.jpg) no-repeat; background-size:contain;}
+#bdid_29{background:url(images/splashes/id_29.jpg) no-repeat; background-size:contain;}
+
+#bdid_30{background:url(images/splashes/id_30.jpg) no-repeat; background-size:contain;}
+#bdid_31{background:url(images/splashes/id_31.jpg) no-repeat; background-size:contain;}
+#bdid_32{background:url(images/splashes/id_32.jpg) no-repeat; background-size:contain;}
+#bdid_33{background:url(images/splashes/id_33.jpg) no-repeat; background-size:contain;}
+#bdid_34{background:url(images/splashes/id_34.jpg) no-repeat; background-size:contain;}
+#bdid_35{background:url(images/splashes/id_35.jpg) no-repeat; background-size:contain;}
+#bdid_36{background:url(images/splashes/id_36.jpg) no-repeat; background-size:contain;}
+#bdid_37{background:url(images/splashes/id_37.jpg) no-repeat; background-size:contain;}
+#bdid_38{background:url(images/splashes/id_38.jpg) no-repeat; background-size:contain;}
+#bdid_39{background:url(images/splashes/id_39.jpg) no-repeat; background-size:contain;}
+
+#bdid_40{background:url(images/splashes/id_40.jpg) no-repeat; background-size:contain;}
+#bdid_41{background:url(images/splashes/id_41.jpg) no-repeat; background-size:contain;}
+#bdid_42{background:url(images/splashes/id_42.jpg) no-repeat; background-size:contain;}
+#bdid_43{background:url(images/splashes/id_43.jpg) no-repeat; background-size:contain;}
+#bdid_44{background:url(images/splashes/id_44.jpg) no-repeat; background-size:contain;}
+#bdid_45{background:url(images/splashes/id_45.jpg) no-repeat; background-size:contain;}
+#bdid_46{background:url(images/splashes/id_46.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_47{background:url(images/splashes/id_47.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_48{background:url(images/splashes/id_48.jpg) no-repeat; background-size:contain;}
+#bdid_49{background:url(images/splashes/id_49.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+
+#bdid_50{background:url(images/splashes/id_50.jpg) no-repeat; background-size:contain;}
+#bdid_51{background:url(images/splashes/id_51.jpg) no-repeat; background-size:contain;}
+#bdid_52{background:url(images/splashes/id_52.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_53{background:url(images/splashes/id_53.jpg) no-repeat; background-size:contain;}
+#bdid_54{background:url(images/splashes/id_54.jpg) no-repeat; background-size:contain;}
+#bdid_55{background:url(images/splashes/id_55.jpg) no-repeat; background-size:contain;}
+#bdid_56{background:url(images/splashes/id_56.jpg) no-repeat; background-size:contain;}
+#bdid_57{background:url(images/splashes/id_57.jpg) no-repeat; background-size:contain;}
+#bdid_58{background:url(images/splashes/id_58.jpg) no-repeat; background-size:contain;}
+#bdid_59{background:url(images/splashes/id_59.jpg) no-repeat; background-size:contain;}
+
+#bdid_60{background:url(images/splashes/id_60.jpg) no-repeat; background-size:contain;}
+#bdid_61{background:url(images/splashes/id_61.jpg) no-repeat; background-size:contain;}
+#bdid_62{background:url(images/splashes/id_62.jpg) no-repeat; background-size:contain;}
+#bdid_63{background:url(images/splashes/id_63.jpg) no-repeat; background-size:contain;}
+#bdid_64{background:url(images/splashes/id_64.jpg) no-repeat; background-size:contain;}
+#bdid_65{background:url(images/splashes/id_65.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_66{background:url(images/splashes/id_66.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_67{background:url(images/splashes/id_67.jpg) no-repeat; background-size:contain;}
+#bdid_68{background:url(images/splashes/id_68.jpg) no-repeat; background-size:contain;}
+#bdid_69{background:url(images/splashes/id_69.jpg) no-repeat; background-size:contain;}
+
+#bdid_70{background:url(images/splashes/id_70.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_71{background:url(images/splashes/id_71.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_72{background:url(images/splashes/id_72.jpg) no-repeat; background-size:contain;}
+#bdid_73{background:url(images/splashes/id_73.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_74{background:url(images/splashes/id_74.jpg) no-repeat; background-size:contain;}
+#bdid_75{background:url(images/splashes/id_75.jpg) no-repeat; background-size:contain;}
+#bdid_76{background:url(images/splashes/id_76.jpg) no-repeat; background-size:contain;}
+#bdid_77{background:url(images/splashes/id_77.jpg) no-repeat; background-size:contain;}
+#bdid_78{background:url(images/splashes/id_78.jpg) no-repeat; background-size:contain;}
+#bdid_79{background:url(images/splashes/id_79.jpg) no-repeat; background-size:contain;}
+
+#bdid_80{background:url(images/splashes/id_80.jpg) no-repeat; background-size:contain;}
+#bdid_81{background:url(images/splashes/id_81.jpg) no-repeat; background-size:contain;}
+#bdid_82{background:url(images/splashes/id_82.jpg) no-repeat; background-size:contain;}
+#bdid_83{background:url(images/splashes/id_83.jpg) no-repeat; background-size:contain;}
+#bdid_84{background:url(images/splashes/id_84.jpg) no-repeat; background-size:contain;}
+#bdid_85{background:url(images/splashes/id_85.jpg) no-repeat; background-size:contain;}
+#bdid_86{background:url(images/splashes/id_86.jpg) no-repeat; background-size:contain;}
+#bdid_87{background:url(images/splashes/id_87.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_88{background:url(images/splashes/id_88.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_89{background:url(images/splashes/id_89.jpg) no-repeat; background-size:contain;}
+
+#bdid_90{background:url(images/splashes/id_90.jpg) no-repeat; background-size:contain;}
+#bdid_91{background:url(images/splashes/id_91.jpg) no-repeat; background-size:contain;}
+#bdid_92{background:url(images/splashes/id_92.jpg) no-repeat; background-size:contain;}
+#bdid_93{background:url(images/splashes/id_93.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_94{background:url(images/splashes/id_94.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_95{background:url(images/splashes/id_95.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_96{background:url(images/splashes/id_96.jpg) no-repeat; background-size:contain;}
+#bdid_97{background:url(images/splashes/id_97.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_98{background:url(images/splashes/id_98.jpg) no-repeat; background-size:contain;}
+#bdid_99{background:url(images/splashes/id_99.jpg) no-repeat; background-size:contain;}
+
+#bdid_100{background:url(images/splashes/id_100.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_101{background:url(images/splashes/id_101.jpg) no-repeat; background-size:contain;}
+#bdid_102{background:url(images/splashes/id_102.jpg) no-repeat; background-size:contain;}
+#bdid_103{background:url(images/splashes/id_103.jpg) no-repeat; background-size:contain;}
+#bdid_104{background:url(images/splashes/id_104.jpg) no-repeat; background-size:contain;}
+#bdid_105{background:url(images/splashes/id_105.jpg) no-repeat; background-size:contain;}
+#bdid_106{background:url(images/splashes/id_106.jpg) no-repeat; background-size:contain;}
+#bdid_107{background:url(images/splashes/id_107.jpg) no-repeat; background-size:contain;}
+#bdid_108{background:url(images/splashes/id_108.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_109{background:url(images/splashes/id_109.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+
+#bdid_110{background:url(images/splashes/id_110.jpg) no-repeat; background-size:contain;}
+#bdid_111{background:url(images/splashes/id_111.jpg) no-repeat; background-size:contain;}
+#bdid_112{background:url(images/splashes/id_112.jpg) no-repeat; background-size:contain;}
+#bdid_113{background:url(images/splashes/id_113.jpg) no-repeat; background-size:contain;}
+#bdid_114{background:url(images/splashes/id_114.jpg) no-repeat; background-size:contain;}
+#bdid_115{background:url(images/splashes/id_115.jpg) no-repeat; background-size:contain;}
+#bdid_116{background:url(images/splashes/id_116.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_117{background:url(images/splashes/id_117.jpg) no-repeat; background-size:contain;}
+#bdid_118{background:url(images/splashes/id_118.jpg) no-repeat; background-size:contain;}/*no hay champ*/
+#bdid_119{background:url(images/splashes/id_119.jpg) no-repeat; background-size:contain;}
+
+#bdid_120{background:url(images/splashes/id_120.jpg) no-repeat; background-size:contain;}
+#bdid_121{background:url(images/splashes/id_121.jpg) no-repeat; background-size:contain;}
