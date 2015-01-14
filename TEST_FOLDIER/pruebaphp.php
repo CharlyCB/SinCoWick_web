@@ -1,6 +1,6 @@
 <?
 //Url donde esta nuestro JSON
-$req = 'url';
+$req = 'https://euw.api.pvp.net/api/lol/euw/v1.2/champion?freeToPlay=true&api_key=29e66e66-e148-4cda-8f1a-b627d7b09c10';
 
 //Iniciamos cURL junto con la URL
 $cVimeo = curl_init($req);
@@ -16,12 +16,10 @@ $getVimeo = json_decode($gVimeo,true);
 
 //Asociamos los campos del JSON a variables
 $titulo = $getVimeo['champions'];
-echo "comilla <pre>";
-echo $titulo[0]['id'];
-echo "</pre>";
 
-echo "sincomilla <pre>";
-echo $titulo[0][id];
-echo "</pre>";
+for ($i=0; $i < count($titulo) ; $i++) { 
+	echo "comilla <pre>";
+	echo $titulo[$i]['id'];
+	echo "</pre>";
+}
 ?>
- 
