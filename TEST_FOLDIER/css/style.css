@@ -279,9 +279,12 @@ html, body{
 	position: absolute;
 }
 
-logo_footer{
+.logo_footer{
 	margin-left: 500px;
 	width: 480px;
 	height: 130px;
-	background-image: url(../images/footerLOGO.png);	
+	background-image: url(../images/footerLOGO.png);
+	background-size: cover;
+	position: absolute;
+	bottom: -200px;
 }
