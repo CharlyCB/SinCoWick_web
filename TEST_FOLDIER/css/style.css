@@ -111,6 +111,7 @@ html, body{
 /*	height: 50px;*/
 	float: right;
 	width:710px;
+	border-radius: 40px 40px 0px 0px;
 }
 .right_bar{
 	background-color: #0F0;
@@ -278,11 +279,11 @@ html, body{
 }
 
 .logo_footer{
-	margin-left: 500px;
-	width: 480px;
-	height: 130px;
+	margin-left: 573px;
+	width: 239px;
+	height: 64px;
 	background-image: url(../images/footerLOGO.png);
 	background-size: cover;
 	position: absolute;
-	bottom: -200px;
+	bottom: -196px;
 }
