@@ -255,6 +255,10 @@ html, body{
 	position: absolute;
 }
 
+.menuBG{
+	background-image: url(../images/MENUbg.png);	
+}
+
 .footer{
 	height:175px;
 	background:url(../images/HeimerMINIico.png) #000 no-repeat;
@@ -273,7 +277,7 @@ html, body{
 	width: 157px;
 	color: white;
 	padding: 0px;
-	margin: 55px 1100px auto;
+	margin: 87px 1118px auto;
 	font-size: 8px;
 	position: absolute;
 }
