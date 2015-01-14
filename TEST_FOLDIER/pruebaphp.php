@@ -1,6 +1,6 @@
 <?
-//Url donde esta nuestro JSON
-$req = 'https://euw.api.pvp.net/api/lol/euw/v1.2/champion?freeToPlay=true&api_key=29e66e66-e148-4cda-8f1a-b627d7b09c10';
+//Url donde esta nuestro JSON													  29e66e66-e148-4cda-8f1a-b627d7b09c10
+$req = 'url';
 
 //Iniciamos cURL junto con la URL
 $cVimeo = curl_init($req);
