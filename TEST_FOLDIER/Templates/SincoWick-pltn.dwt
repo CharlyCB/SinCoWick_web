@@ -60,13 +60,13 @@
 
 <div class="footer">
      <div class="footerBG">
-        	<div class="legal">
-                <ul>
+     	<div class="legal">
+        <ul>
                     <li><a href="#">Politica de Cookies</a></li>
                     <li><a href="#">Información</a></li>
                     <li>Desarrollado por <a href="#">asd</a>y<a href="#">dsa</a></li>
-                </ul>
-            </div>
+      </ul>
+       </div>
         
   </div>
 </div>
