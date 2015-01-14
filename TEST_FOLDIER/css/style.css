@@ -259,6 +259,7 @@ html, body{
 	background:url(../images/HeimerMINIico.png) #000 no-repeat;
 	background-size:contain;
 	background-position:right;
+	border-radius: 40px 40px 0px 0px ;
 	
 }
 .footer .legal{
@@ -276,4 +277,11 @@ html, body{
 	margin: 55px 1100px auto;
 	font-size: 10px;
 	position: absolute;
+}
+
+logo_footer{
+	margin-left: 500px;
+	width: 480px;
+	height: 130px;
+	background-image: url(../images/footerLOGO.png);	
 }
