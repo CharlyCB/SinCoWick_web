@@ -6,6 +6,11 @@ body{
   margin: 0 auto;
   padding: 20px;
 }
+
+.expositor{
+	width: 1110px;
+	height:500px;
+}
 .mini-slider{
   background:url(images/color_grey_103.jpg);
   position: relative;
@@ -13,9 +18,16 @@ body{
   height:110px;
   cursor: pointer;
   overflow: hidden;
+  bottom:0;
   border: solid 7px #111;
 }
-
+.minislide, .minislide-end{
+  width: 110px;
+  height: 110px;
+  float: left;
+  position: absolute;
+  transition: margin .3s linear;
+}
 .minislide:nth-child(1){ margin-left: 0px;}
 .minislide:nth-child(2){ margin-left: 111px;}
 .minislide:nth-child(3){ margin-left: 222px;}
@@ -36,6 +48,7 @@ body{
   cursor: pointer;
   overflow: hidden;
   border: solid 7px #111;
+  visibility:hidden;
 }
 
 .slides, .slides-end{
