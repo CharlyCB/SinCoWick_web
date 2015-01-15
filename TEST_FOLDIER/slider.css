@@ -6,6 +6,28 @@ body{
   margin: 0 auto;
   padding: 20px;
 }
+.mini-slider{
+  background:url(images/color_grey_103.jpg);
+  position: relative;
+  width: 1110px;
+  height:110px;
+  cursor: pointer;
+  overflow: hidden;
+  border: solid 7px #111;
+}
+
+.minislide:nth-child(1){ margin-left: 0px;}
+.minislide:nth-child(2){ margin-left: 111px;}
+.minislide:nth-child(3){ margin-left: 222px;}
+.minislide:nth-child(4){ margin-left: 333px;}
+.minislide:nth-child(5){ margin-left: 444px;}
+.minislide-end:nth-child(6){ margin-left: 555px;}
+.minislide-end:nth-child(7){ margin-left: 666px;}
+.minislide-end:nth-child(8){ margin-left: 777px;}
+.minislide-end:nth-child(9){ margin-left: 888px;}
+.minislide-end:nth-child(10){ margin-left: 999px;}
+
+
 .slider{
   background:url(images/color_grey_103.jpg);
   position: relative;
@@ -13,7 +35,7 @@ body{
   height: 300px;
   cursor: pointer;
   overflow: hidden;
-  border: solid 7px #111; 
+  border: solid 7px #111;
 }
 
 .slides, .slides-end{
@@ -81,14 +103,6 @@ q{
 ::selection{
   background: #222;
   color: #fff;
-}
-
-.github img{
-  position: absolute; 
-  top: 0; 
-  right: 0; 
-  border: 0;
-  z-index: 99999;
 }
 
 h3{
