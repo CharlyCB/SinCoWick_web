@@ -5,10 +5,19 @@
 <link href='images/Favicon.png' rel='shortcut icon'/><!--ICONO DE BARRA DE NAVEGACION-->
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <title>LoL-Dinger</title>
+
+<script>
+function LoadBG(){
+	Fecha = new Date();
+    //obtener id a usar dependiendo del dia: parseInt(9/30*Fecha.getDate());	
+	document.getElementById('content').style.background="url('images/wallpaper/fondo_"+parseInt(9/30*Fecha.getDate())+".jpg') no-repeat top";
+}
+
+</script>
+
 </head><div class="cleaner"></div>
-    
-     
-<body>
+
+<body onload="LoadBG()">
 
 <div class="content">
   <div class="header_wrap">

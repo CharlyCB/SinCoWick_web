@@ -13,7 +13,7 @@ html, body{
 }
 .content{
 	min-height:100%;
-	background:url(../images/lol.jpg) no-repeat;
+/*	background:url(../images/wallpaper/fondo_1.jpg) no-repeat;*/
 	background-position: center top;
 }
 .header_wrap{
