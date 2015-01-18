@@ -35,9 +35,6 @@
 	.minislide-end:nth-child(9){ margin-left: 888px; background:#666;}
 	.minislide-end:nth-child(10){ margin-left: 999px;}
 
-	.slide_min{
-		visibility:hidden;
-	}
 
 	.slide_big{
 		position:absolute;
@@ -54,21 +51,40 @@
 		-webkit-filter: brightness(0.85);/* Chrome y Safari */
 		-moz-filter: brightness(0.85);/* Mozilla */
 		-ms-filter: brightness(0.85);/* Internet Explorer */
-		-o-filter:  brightness(0.85);/* Opera */		
+		-o-filter:  brightness(0.85);/* Opera */
+		-webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+   		transition: width 1s;		
 	}
 	.slide:hover{
 		-webkit-filter: brightness(1);/* Chrome y Safari */
 		-moz-filter: brightness(1);/* Mozilla */
 		-ms-filter: brightness(1);/* Internet Explorer */
 		-o-filter:  brightness(1);/* Opera */
+		-webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+   		transition: width 1s;
+		width:747px;
 	}
 	.active{
-		width:747px;
+		visibility:visible;
+		-webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+   		transition: width 1s;
+	}
+	.unactive{
+		visibility:hidden;
+		-webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+   		transition: width 1s;
 	}
 </style>
 
 <script>
-
+	function cambiob (){
+		document.getElementById("big").className = "slide_big active";
+		document.getElementById("litle").className = "slide_min unactive";
+	}
+	function cambiop (){
+		document.getElementById("big").className = "slide_big unactive";
+		document.getElementById("litle").className = "slide_min active";
+	}
 
 </script>
 
@@ -76,19 +92,19 @@
 
 <body>
 <div class="slide_cont">
-	<div class="slide_big">
+	<div class="slide_big active" id="big" >
     	<div class="slide">asde</div>
         <div class="slide">asd</div>
         <div class="slide">asd</div>
         <div class="slide">asd</div>
-        <div class="slide active">dasd</div>
+        <div class="slide">dasd</div>
         <div class="slide">asd</div>
         <div class="slide">asd</div>
         <div class="slide">asd</div>
         <div class="slide">asd</div>
         <div class="slide">asd</div>
     </div>
-    <div class="slide_min">
+    <div class="slide_min unactive" id="litle">
         <div class="minislide"></div>
         <div class="minislide"></div>
         <div class="minislide"></div>
@@ -101,7 +117,9 @@
         <div class="minislide-end"></div>
     </div>
 </div>
-
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<input type="button" value="pequetobig" onclick="cambiob()" />
+<input type="button" onclick="cambiop()" value="bigtopeque" />
 
 </body>
 </html>
