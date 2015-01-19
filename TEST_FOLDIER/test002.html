@@ -14,12 +14,15 @@
 		background:url(images/color_grey_103.jpg);
 		height:200px;
 		width:1110px;
-		-webkit-transition: width 1s;
+		-webkit-transition: height 1s;
+		
 	}
 	.minislide{
-		  width: 110px;
+		  width: 109px;
 		  height: 100%;
 		  float: left;
+		  border: 1px solid #000;
+		  -webkit-transition: width 1s;
 	}
 	.minislide:nth-child(1){  background:#666;}
 	.minislide:nth-child(2){ }
@@ -43,13 +46,23 @@
 		-webkit-transition: width 1s;
 	}
 	.target{
-		width:747px;
+		width:748px;
 		-webkit-transition: width 1s;
+	}
+	.slide_cont .close{
+		height:32px;
+		width:32px;
+		position:absolute;
+		background:url(images/botonX.png) no-repeat;
+		background-size:cover;
+		margin: -15px 0 0 1095px;
+		
 	}
 </style>
 <script>
 	function bigslide(){
 		document.getElementById("slider").className = "slide_max";
+		document.getElementById('close').className = "close";
 	}
 	function bigimg(target){
 		for(var a = 0; a < 10; a++){
@@ -61,13 +74,21 @@
 			}
 		}
 	}
+	function closeslider(){
+		document.getElementById("slider").className = "slide_min";
+		document.getElementById('close').className = "";
+		for(var a = 0; a < 10; a++){
+				document.getElementById(a).className = "minislide";
+		}
+	}
 </script>
 </head>
 
 <body>
 
 <div class="slide_cont">
-    <div class="slide_min" onmouseout="minslide();" onmouseover="bigslide();" id="slider">
+	<a onclick="closeslider()" id="close" ></a>
+    <div class="slide_min" onclick="bigslide();" id="slider">
         <div class="minislide" onclick="bigimg(0);" id="0"></div>
         <div class="minislide" onclick="bigimg(1);" id="1"></div>
         <div class="minislide" onclick="bigimg(2);" id="2"></div>
