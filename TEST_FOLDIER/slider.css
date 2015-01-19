@@ -71,6 +71,7 @@
 		background:url(images/botonX.png) no-repeat;
 		background-size:cover;
 		margin: -15px 0 0 1095px;
+		z-index:999999;
 	}
 	
 	
