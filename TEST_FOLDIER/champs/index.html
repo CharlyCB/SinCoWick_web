@@ -11,6 +11,7 @@ function LoadBG(){
 	Fecha = new Date();
     //obtener id a usar dependiendo del dia: parseInt(9/30*Fecha.getDate());	
 	document.getElementById('content').style.background="url('images/wallpaper/fondo_"+parseInt(9/30*Fecha.getDate())+".jpg') no-repeat top";
+	document.getElementById('container').innerHTML = "document.getElementById('right_bar') + Fecha.getDate()";
 }
 
 </script>
@@ -32,7 +33,7 @@ function LoadBG(){
             <ul class="menuBG">
               <li><a href="data/maestries">Maestrías</a></li>
               <li><a href="data/runes">Runas</a></li>
-              <li><a href="data/objects">Objetos</a></li>
+              <li><a href="data/items">Objetos</a></li>
             </ul>
           </li>
           <li><a href="videos">Vídeos</a></li>

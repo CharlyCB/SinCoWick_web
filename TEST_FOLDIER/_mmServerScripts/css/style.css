@@ -13,7 +13,7 @@ html, body{
 }
 .content{
 	min-height:100%;
-	background:url(../images/wallpaper/fondo_1.jpg) no-repeat;
+/*	background:url(../images/wallpaper/fondo_1.jpg) no-repeat;*/
 	background-position: center top;
 }
 .header_wrap{
@@ -240,7 +240,7 @@ html, body{
     margin: 0;
     /* el ancho dependerá de los textos a utilizar */
 	padding: 0 5px 5px 15px;
-	width:93px;
+	width:100px;
   }
   #menu ul li:hover{
 	  background:url(../images/MENUbg-activo.png);
@@ -262,7 +262,7 @@ html, body{
 .footer{
 	height:175px;
 	background:url(../images/HeimerMINIico.png) #000 no-repeat;
-	background-size: contain;
+	background-size:contain;
 	background-position:right;
 }
 .footer .legal{
@@ -284,7 +284,7 @@ html, body{
 
 .logo_footer{
 	margin-left: 573px;
-	width: 242px;
+	width: 239px;
 	height: 64px;
 	background-image: url(../images/footerLOGO.png);
 	background-size: cover;
