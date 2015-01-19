@@ -109,7 +109,7 @@ html, body{
 .container {
 	background-color: #009;
 	height: 500px;
-	float: right;
+	float: left;
 	width:710px;
 	margin-left: 25px;
 	margin-right: 25px;
@@ -319,7 +319,7 @@ html, body{
 .process{
 	
 	height: 320px;
-	float: right;
+	float: left;
 	width:710px;
 	background-color: #F0F;
 	margin-left: 25px;
@@ -329,7 +329,7 @@ html, body{
 
 .guides{
 	height: 320px;
-	float: right;
+	float: left;
 	width:710px;
 	background-color: #FF0;
 	margin-left: 25px;
