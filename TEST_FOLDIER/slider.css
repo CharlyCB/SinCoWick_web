@@ -4,13 +4,13 @@
 	.slide_cont{
 		background:url(images/splashes/id_2.jpg) no-repeat #000 center;
 		background-size:contain;
-		width:1110px;
+		width:1111px;
 		border: 5px solid #000;
 	}
 	.slide_min{
 		background:url(images/color_grey_103.jpg);
 		height:200px;
-		width:1110px;
+		width:1111px;
 		-webkit-transition:height 1s;
 		-moz-transition: height 1s;
 		-ms-transition: height 1s;
@@ -32,19 +32,14 @@
 		  -ms-filter: brightness(0.85);/* Internet Explorer */
 		  -o-filter:  brightness(0.85);/* Opera */
 	}
-	.minislide:hover{
-		-webkit-transition: all 1s;
-		-moz-transition: all 1s;
-		-ms-transition: all 1s;
-		-o-transition: all 1s;
-		  
+	.minislide:hover{		  
 		-webkit-filter: brightness(1);
 	}
 	
 	.slide_max{
 		background:url(images/color_grey_103.jpg);
 		height:450px;
-		width:1110px;
+		width:1111px;
 		-webkit-transition:height 1s;
 		  -moz-transition: height 1s;
 		  -ms-transition: height 1s;
@@ -73,22 +68,40 @@
 		margin: -15px 0 0 1095px;
 		z-index:999999;
 	}
-	
 	.slide_max .target .biglogo{
 		height:150px;
 		width:300px;
-		background:url(images/marco.png) no-repeat;
+		background:url(images/marco_champ/mc_1.png) no-repeat;
 		background-size:100% 100%;
 		margin: -20px 0 0 -30px;
+		-webkit-transition: margin 1s, width 1s, height 1s;
+		-moz-transition: margin 1s, width 1s, height 1s;
+		-ms-transition: margin 1s, width 1s, height 1s;
+		-o-transition: margin 1s, width 1s, height 1s;		
 	}
-	.slide_max .target .skill{
+	.slide_max .target .skill_cont{
+		visibility:visible;
 		margin-top:168px;
 		height:150px;
 		background:#FFF;
-		opacity:0.5;
+		opacity:0.7;
+	}	
+	.slide_min .minislide .biglogo{
+		background:url(images/marco_champ/mc_1.png) no-repeat;
+		height:70px;
+		width:145px;
+		margin: 140px 0 0 -17px;
+		background-size:100% 100%;
+		-webkit-transition: margin 1s, width 1s, height 1s;
+		-moz-transition: margin 1s, width 1s, height 1s;
+		-ms-transition: margin 1s, width 1s, height 1s;
+		-o-transition: margin 1s, width 1s, height 1s;
 	}
-	
-	
+	.biglogo a{
+		display:block;
+		height:100%;
+		width:100%;
+	}
 	/*Insertamos las imagenes*/
 	#spid1{
 		background:url(images/splashes/id_1.jpg) no-repeat;
