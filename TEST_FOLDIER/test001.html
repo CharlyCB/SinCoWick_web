@@ -3,122 +3,52 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Documento sin título</title>
-<style>
-	.slide_cont{
-		background:url(images/splashes/id_2.jpg) no-repeat #000 center;
-		background-size:contain;
-		width:1110px;
-		border: 5px solid #000;
-	}
-	.slide_min{
-		background:url(images/color_grey_103.jpg);
-		height:200px;
-		width:1110px;
-		border: 5px solid #000;
-	}
-	.minislide, .minislide-end{
-		  width: 110px;
-		  height: 200px;
-		  float: left;
-		  position: absolute;
-		  transition: margin .3s linear;
-	}
-	
-	.minislide:nth-child(1){ margin-left: 0px; background:#666;}
-	.minislide:nth-child(2){ margin-left: 111px;}
-	.minislide:nth-child(3){ margin-left: 222px; background:#666;}
-	.minislide:nth-child(4){ margin-left: 333px;}
-	.minislide:nth-child(5){ margin-left: 444px; background:#666;}
-	.minislide-end:nth-child(6){ margin-left: 555px;}
-	.minislide-end:nth-child(7){ margin-left: 666px; background:#666;}
-	.minislide-end:nth-child(8){ margin-left: 777px;}
-	.minislide-end:nth-child(9){ margin-left: 888px; background:#666;}
-	.minislide-end:nth-child(10){ margin-left: 999px;}
-
-
-	.slide_big{
-		position:absolute;
-		height:450px;
-		width:1110px;
-	}
-	.slide{
-		width:38px;
-		height:450px;
-		float:left;
-		border:1px solid #999;
-		transition: margin .3s linear;
-		-webkit-filter: brightness(0.85);/* Chrome y Safari */
-		-moz-filter: brightness(0.85);/* Mozilla */
-		-ms-filter: brightness(0.85);/* Internet Explorer */
-		-o-filter:  brightness(0.85);/* Opera */
-		-webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
-   		transition: width 1s;		
-	}
-	.slide:hover{
-		-webkit-filter: brightness(1);/* Chrome y Safari */
-		-moz-filter: brightness(1);/* Mozilla */
-		-ms-filter: brightness(1);/* Internet Explorer */
-		-o-filter:  brightness(1);/* Opera */
-		-webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
-   		transition: width 1s;
-		width:747px;
-	}
-	.active{
-		visibility:visible;
-		transition-property: visibility, top, bottom;
-		transition-duration: 1s, 1s;
-	}
-	.unactive{
-		visibility:hidden;
-		-webkit-transition: visibility 1s; /* For Safari 3.1 to 6.0 */
-   		transition: visibility 1s;
-	}
-</style>
-
 <script>
-	function cambiob (){
-		document.getElementById("big").className = "slide_big active";
-		document.getElementById("litle").className = "slide_min unactive";
+	function bigslide(){
+		document.getElementById("slider").className = "slide_max";
+		document.getElementById('close').className = "close";
 	}
-	function cambiop (){
-		document.getElementById("big").className = "slide_big unactive";
-		document.getElementById("litle").className = "slide_min active";
+	function bigimg(target){
+		for(var a = 0; a < 10; a++){
+			if( a == target){
+				document.getElementById(target).className = "minislide target";
+			}
+			else{
+				document.getElementById(a).className = "minislide notarget";
+			}
+		}
 	}
-
+	function closeslider(){
+		document.getElementById("slider").className = "slide_min";
+		document.getElementById('close').className = "";
+		for(var a = 0; a < 10; a++){
+				document.getElementById(a).className = "minislide";
+		}
+	}
 </script>
-
+<link href="slider.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
+
 <div class="slide_cont">
-	<div class="slide_big active" id="big" >
-    	<div class="slide">asde</div>
-        <div class="slide">asd</div>
-        <div class="slide">asd</div>
-        <div class="slide">asd</div>
-        <div class="slide">dasd</div>
-        <div class="slide">asd</div>
-        <div class="slide">asd</div>
-        <div class="slide">asd</div>
-        <div class="slide">asd</div>
-        <div class="slide">asd</div>
-    </div>
-    <div class="slide_min unactive" id="litle">
-        <div class="minislide"></div>
-        <div class="minislide"></div>
-        <div class="minislide"></div>
-        <div class="minislide"></div>
-        <div class="minislide"></div>
-        <div class="minislide-end"></div>
-        <div class="minislide-end"></div>
-        <div class="minislide-end"></div>
-        <div class="minislide-end"></div>
-        <div class="minislide-end"></div>
+	<a onclick="closeslider()" id="close" ></a>
+    <div class="slide_min" onclick="bigslide();" id="slider">
+        <div class="minislide" onclick="bigimg(0);" id="0"></div>
+        <div class="minislide" onclick="bigimg(1);" id="1"></div>
+        <div class="minislide" onclick="bigimg(2);" id="2"></div>
+        <div class="minislide" onclick="bigimg(3);" id="3"></div>
+        <div class="minislide" onclick="bigimg(4);" id="4"></div>
+        <div class="minislide" onclick="bigimg(5);" id="5"></div>
+        <div class="minislide" onclick="bigimg(6);" id="6"></div>
+        <div class="minislide" onclick="bigimg(7);" id="7"></div>
+        <div class="minislide" onclick="bigimg(8);" id="8"></div>
+        <div class="minislide" onclick="bigimg(9);" id="9"></div>
     </div>
 </div>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<input type="button" value="pequetobig" onclick="cambiob()" />
-<input type="button" onclick="cambiop()" value="bigtopeque" />
 
 </body>
 </html>
+
+
+
