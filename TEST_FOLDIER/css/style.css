@@ -108,15 +108,18 @@ html, body{
 }
 .container {
 	background-color: #009;
-/*	height: 50px;*/
+	height: 500px;
 	float: right;
 	width:710px;
-	border-radius: 40px 40px 0px 0px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 30px;
 }
 .right_bar{
 	background-color: #0F0;
 	float: right;
 	width: 350px;
+	margin-bottom: 30px;
 }
 
 
@@ -304,12 +307,40 @@ html, body{
 
 .publi{
 	width: 1109px;
-	heigth: 90px;
+	height: 110px;
 	background-color: #C60;
 }
 
 .div_mini{
 	float:left;
 	width: 70px;
+}
+
+.process{
 	
+	height: 320px;
+	float: right;
+	width:710px;
+	background-color: #F0F;
+	margin-left: 25px;
+	margin-bottom: 30px;
+	margin-right: 25px;
+}
+
+.guides{
+	height: 320px;
+	float: right;
+	width:710px;
+	background-color: #FF0;
+	margin-left: 25px;
+	margin-bottom: 30px;
+	margin-right: 25px;
+}
+
+.videos{
+	float: right;
+	margin-left: 1000px;
+	background-color: #300;
+	width: 350px;
+	height: 300px;
 }
