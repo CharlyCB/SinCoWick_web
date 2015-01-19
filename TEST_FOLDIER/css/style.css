@@ -50,7 +50,7 @@ html, body{
 	position:absolute;
 	background:url(../images/LOL-Dinger-NAME.png) no-repeat;
 	background-size:contain;
-	height:150px;
+	height:82px;
 	width:400px;
 	margin: 45px 0 0 43px;
 	border-radius:10px;
@@ -290,4 +290,19 @@ html, body{
 	background-size: cover;
 	position: absolute;
 	bottom: -196px;
+}
+
+.slider{
+	width: 608px;
+	height: 359px;
+	background-color: #0F3;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.publi{
+	width: 1109px;
+	heigth: 90px;
+	background-color: #C60;
 }

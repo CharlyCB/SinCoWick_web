@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style>
+	.slide_cont{
+		background:url(images/splashes/id_2.jpg) no-repeat #000 center;
+		background-size:contain;
+		width:1110px;
+		border: 5px solid #000;
+	}
+	.slide_min{
+		background:url(images/color_grey_103.jpg);
+		height:200px;
+		width:1110px;
+		-webkit-transition: height 1s;
+		
+	}
+	.minislide{
+		  width: 109px;
+		  height: 100%;
+		  float: left;
+		  border: 1px solid #000;
+		  -webkit-transition: width 1s;
+	}
+	.minislide:nth-child(1){  background:#666;}
+	.minislide:nth-child(2){ }
+	.minislide:nth-child(3){  background:#666;}
+	.minislide:nth-child(4){ }
+	.minislide:nth-child(5){  background:#666;}
+	.minislide:nth-child(6){}
+	.minislide:nth-child(7){ background:#666;}
+	.minislide:nth-child(8){}
+	.minislide:nth-child(9){  background:#666;}
+	.minislide:nth-child(10){ }
+	
+	.slide_max{
+		background:url(images/color_grey_103.jpg);
+		height:450px;
+		width:1110px;
+		-webkit-transition: height 1s;
+	}
+	.notarget{
+		width:38px;
+		-webkit-transition: width 1s;
+	}
+	.target{
+		width:748px;
+		-webkit-transition: width 1s;
+	}
+	.slide_cont .close{
+		height:32px;
+		width:32px;
+		position:absolute;
+		background:url(images/botonX.png) no-repeat;
+		background-size:cover;
+		margin: -15px 0 0 1095px;
+		
+	}
+</style>
+<script>
+	function bigslide(){
+		document.getElementById("slider").className = "slide_max";
+		document.getElementById('close').className = "close";
+	}
+	function bigimg(target){
+		for(var a = 0; a < 10; a++){
+			if( a == target){
+				document.getElementById(target).className = "minislide target";
+			}
+			else{
+				document.getElementById(a).className = "minislide notarget";
+			}
+		}
+	}
+	function closeslider(){
+		document.getElementById("slider").className = "slide_min";
+		document.getElementById('close').className = "";
+		for(var a = 0; a < 10; a++){
+				document.getElementById(a).className = "minislide";
+		}
+	}
+</script>
+</head>
+
+<body>
+
+<div class="slide_cont">
+	<a onclick="closeslider()" id="close" ></a>
+    <div class="slide_min" onclick="bigslide();" id="slider">
+        <div class="minislide" onclick="bigimg(0);" id="0"></div>
+        <div class="minislide" onclick="bigimg(1);" id="1"></div>
+        <div class="minislide" onclick="bigimg(2);" id="2"></div>
+        <div class="minislide" onclick="bigimg(3);" id="3"></div>
+        <div class="minislide" onclick="bigimg(4);" id="4"></div>
+        <div class="minislide" onclick="bigimg(5);" id="5"></div>
+        <div class="minislide" onclick="bigimg(6);" id="6"></div>
+        <div class="minislide" onclick="bigimg(7);" id="7"></div>
+        <div class="minislide" onclick="bigimg(8);" id="8"></div>
+        <div class="minislide" onclick="bigimg(9);" id="9"></div>
+    </div>
+</div>
+
+</body>
+</html>

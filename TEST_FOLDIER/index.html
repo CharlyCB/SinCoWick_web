@@ -11,7 +11,6 @@ function LoadBG(){
 	Fecha = new Date();
     //obtener id a usar dependiendo del dia: parseInt(9/30*Fecha.getDate());	
 	document.getElementById('content').style.background="url('images/wallpaper/fondo_"+parseInt(9/30*Fecha.getDate())+".jpg') no-repeat top";
-	document.getElementById('container').innerHTML = "document.getElementById('right_bar') + Fecha.getDate()";
 }
 
 </script>
@@ -57,16 +56,20 @@ function LoadBG(){
   <div class="cleaner"></div>
   
   
-<!-- InstanceBeginEditable name="CONTENT" -->
+<!-- InstanceBeginEditable name="CONTAINER WRAP" -->
 
-
-
-  <div class="container_wrap">
+<div class="container_wrap">
+	<div class="publi">
+    PUBLICIDAD
+    </div>
+    
+	<div class="slider">
+    SLIDER
+    </div>
     <div class="right_bar"> DERECHA </div>
-		<div class="container">
-        	<img src="images/loading.gif" width="92" height="92" />
-            CONTENEDOR
-        </div>
+  	<div class="container">CONTENEDOR</div>
+	<div class="cleaner"></div>
+
   </div>
 </div>
 
@@ -75,7 +78,6 @@ function LoadBG(){
 
 
 <!-- InstanceEndEditable -->
-
 
 <div class="footer">
     <div class="legal">
@@ -91,7 +93,7 @@ function LoadBG(){
     
   <div class="copyright">
         &copy; 2015 Gabriel Ramos Cozzi.
-        <br />&copy; 2015 Carlos Coloma
+        <br />&copy; 2015 Carlos Coloma Bordehore
         <br /> Todos los derechos reservados.
     </div>
     

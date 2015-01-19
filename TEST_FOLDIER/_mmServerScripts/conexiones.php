@@ -13,8 +13,8 @@
             <div>
             	<?php 
                 	include("conexion.php");
-					//$Con = conexion();
-					//$Con->recuperarDatos();
+					$Con = conexion();
+					$Con->recuperarDatos();
 				?>
             </div>
         </fieldset>    
