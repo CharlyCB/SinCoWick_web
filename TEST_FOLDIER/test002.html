@@ -14,13 +14,12 @@
 		background:url(images/color_grey_103.jpg);
 		height:200px;
 		width:1110px;
+		-webkit-transition: width 1s;
 	}
-	.minislide, .minislide-end{
+	.minislide{
 		  width: 110px;
-		  height: 200px;
+		  height: 100%;
 		  float: left;
-
-		  transition: margin .3s linear;
 	}
 	.minislide:nth-child(1){  background:#666;}
 	.minislide:nth-child(2){ }
@@ -33,29 +32,52 @@
 	.minislide:nth-child(9){  background:#666;}
 	.minislide:nth-child(10){ }
 	
+	.slide_max{
+		background:url(images/color_grey_103.jpg);
+		height:450px;
+		width:1110px;
+		-webkit-transition: height 1s;
+	}
+	.notarget{
+		width:38px;
+		-webkit-transition: width 1s;
+	}
+	.target{
+		width:747px;
+		-webkit-transition: width 1s;
+	}
 </style>
-
 <script>
-
-
-
+	function bigslide(){
+		document.getElementById("slider").className = "slide_max";
+	}
+	function bigimg(target){
+		for(var a = 0; a < 10; a++){
+			if( a == target){
+				document.getElementById(target).className = "minislide target";
+			}
+			else{
+				document.getElementById(a).className = "minislide notarget";
+			}
+		}
+	}
 </script>
 </head>
 
 <body>
 
 <div class="slide_cont">
-    <div class="slide_min" id="slider">
-        <div class="minislide"></div>
-        <div class="minislide"></div>
-        <div class="minislide"></div>
-        <div class="minislide"></div>
-        <div class="minislide"></div>
-        <div class="minislide"></div>
-        <div class="minislide"></div>
-        <div class="minislide"></div>
-        <div class="minislide"></div>
-        <div class="minislide"></div>
+    <div class="slide_min" onmouseout="minslide();" onmouseover="bigslide();" id="slider">
+        <div class="minislide" onclick="bigimg(0);" id="0"></div>
+        <div class="minislide" onclick="bigimg(1);" id="1"></div>
+        <div class="minislide" onclick="bigimg(2);" id="2"></div>
+        <div class="minislide" onclick="bigimg(3);" id="3"></div>
+        <div class="minislide" onclick="bigimg(4);" id="4"></div>
+        <div class="minislide" onclick="bigimg(5);" id="5"></div>
+        <div class="minislide" onclick="bigimg(6);" id="6"></div>
+        <div class="minislide" onclick="bigimg(7);" id="7"></div>
+        <div class="minislide" onclick="bigimg(8);" id="8"></div>
+        <div class="minislide" onclick="bigimg(9);" id="9"></div>
     </div>
 </div>
 
