@@ -45,7 +45,7 @@
 		background:url(images/color_grey_103.jpg);
 		height:450px;
 		width:1110px;
-				  -webkit-transition:height 1s;
+		-webkit-transition:height 1s;
 		  -moz-transition: height 1s;
 		  -ms-transition: height 1s;
 		  -o-transition: height 1s;
@@ -72,6 +72,20 @@
 		background-size:cover;
 		margin: -15px 0 0 1095px;
 		z-index:999999;
+	}
+	
+	.slide_max .target .biglogo{
+		height:150px;
+		width:300px;
+		background:url(images/marco.png) no-repeat;
+		background-size:100% 100%;
+		margin: -20px 0 0 -30px;
+	}
+	.slide_max .target .skill{
+		margin-top:168px;
+		height:150px;
+		background:#FFF;
+		opacity:0.5;
 	}
 	
 	
