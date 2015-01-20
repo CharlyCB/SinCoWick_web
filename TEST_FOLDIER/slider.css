@@ -2,7 +2,7 @@
 /* CSS Document */
 
 	.slide_cont{
-		background:url(images/splashes/id_2.jpg) no-repeat #000 center;
+		background: #000 center;
 		background-size:contain;
 		width:1111px;
 		border: 5px solid #000;
@@ -11,6 +11,7 @@
 		background:url(images/color_grey_103.jpg);
 		height:200px;
 		width:1111px;
+		
 		-webkit-transition:height 1s;
 		-moz-transition: height 1s;
 		-ms-transition: height 1s;
@@ -40,6 +41,7 @@
 		background:url(images/color_grey_103.jpg);
 		height:450px;
 		width:1111px;
+		
 		-webkit-transition:height 1s;
 		  -moz-transition: height 1s;
 		  -ms-transition: height 1s;
