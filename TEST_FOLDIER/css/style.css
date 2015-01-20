@@ -108,12 +108,14 @@ html, body{
 }
 .container {
 	background-color: #009;
-	height: 500px;
+	height: 480px;
+	width:690px;
 	float: left;
-	width:710px;
 	margin-left: 25px;
 	margin-right: 25px;
 	margin-bottom: 30px;
+	padding: 10px;
+
 }
 .right_bar{
 	background-color: #0F0;
@@ -293,7 +295,6 @@ html, body{
 	height: 64px;
 	background-image: url(../images/footerLOGO.png);
 	background-size: cover;
-/*	position: absolute;*/
 	bottom: -196px;
 }
 
@@ -317,10 +318,10 @@ html, body{
 }
 
 .process{
-	
-	height: 320px;
+	padding: 10px;
+	height: 300px;
 	float: left;
-	width:710px;
+	width:690px;
 	background-color: #F0F;
 	margin-left: 25px;
 	margin-bottom: 30px;
@@ -328,13 +329,14 @@ html, body{
 }
 
 .guides{
-	height: 320px;
+	height: 300px;
 	float: left;
-	width:710px;
+	width:690px;
 	background-color: #FF0;
 	margin-left: 25px;
 	margin-bottom: 30px;
 	margin-right: 25px;
+	padding: 10px;
 }
 
 .videos{
@@ -344,3 +346,48 @@ html, body{
 	width: 350px;
 	height: 300px;
 }
+
+/* PRUEBAS MIAS NO TOCAR */
+.statics{
+	border: 1px solid #000;
+	width: 300px;
+}
+
+.defense{
+	height: 23px;
+	width: 40%;
+	border: 1px solid #000;
+	background-color: #0F0;
+	padding-left: 5px;
+	padding-top: 2px;
+}
+
+.attack{
+	height: 23px;
+	width: 30%;
+	border: 1px solid #000;
+	background-color: #F00;
+	padding-left: 5px;
+	padding-top: 2px;
+}
+
+.hechizos{
+	height: 23px;
+	width: 80%;
+	border: 1px solid #000 ;
+	background-color: #36F;
+	padding-left: 5px;
+	padding-top: 2px;
+}
+
+.diff{
+	height: 23px;
+	width: 80%;
+	border: 1px solid #000;
+	background-color: #C09;
+	padding-left: 5px;
+	padding-top: 2px;
+}
+
+
+/*************************/
