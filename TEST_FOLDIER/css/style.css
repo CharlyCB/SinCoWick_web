@@ -282,7 +282,8 @@ html, body{
 .copyright{
 	float: rigth;
 	width: 157px;
-	color: white;
+	color: black;
+	font-weight: bold;
 	padding: 0px;
 	margin: 87px 1118px auto;
 	font-size: 8px;
@@ -296,6 +297,7 @@ html, body{
 	background-image: url(../images/footerLOGO.png);
 	background-size: cover;
 	bottom: -196px;
+	/*CORREGIR*/
 }
 
 .slider{
@@ -310,16 +312,27 @@ html, body{
 	width: 1109px;
 	height: 110px;
 	background-color: #C60;
+	background-image: url(../images/zombies.gif);
+	background-position: -100px -50px;
 }
 
 .div_mini{
 	float:left;
 	width: 70px;
+	
+	-webkit-filter: brightness(0.85);/* Chrome y Safari */
+	-moz-filter: brightness(0.85);/* Mozilla */
+	-ms-filter: brightness(0.85);/* Internet Explorer */
+	-o-filter:  brightness(0.85);/* Opera */
+}
+
+.div_mini:hover{
+	-webkit-filter: brightness(1.5);
 }
 
 .process{
 	padding: 10px;
-	height: 300px;
+	height: 400px;
 	float: left;
 	width:690px;
 	background-color: #F0F;
@@ -349,8 +362,9 @@ html, body{
 
 /* PRUEBAS MIAS NO TOCAR */
 .statics{
-	border: 1px solid #000;
+	border: 2px solid #000;
 	width: 300px;
+	background-color:#999;
 }
 
 .defense{

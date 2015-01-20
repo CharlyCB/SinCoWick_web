@@ -79,21 +79,37 @@ function LoadBG(){
     <h1>PROCESS</h1>
 
 <!-- MI PRUEBA DE ESTADISTICAS "http://es.leagueoflegends-es.wikia.com/wiki/Lista_de_campeones"-->
-	AHRI
-    <div id="IDchamp" class="statics">
-        <div class="attack">Ataque</div>
-    	<div class="defense">Defensa</div>
-        <div class="hechizos">Hechizo</div>
-        <div class="diff">Dificultad</div>
+	<script type="text/javascript" src="js/stats.js"></script>
+
+    <div id="stats" class="stats">
+        AHRI
+        <div id='2champ' class='statics'>
+            <div id='2champ' class='attack'>Ataque</div>
+            <div id='2champ' class='defense'>Defensa</div>
+            <div id='2champ' class='hechizos'>Hechizo</div>
+            <div id='2champ' class='diff'>Dificultad</div>
+        </div>
+        
+        SHACO
+        <div id='35champ' class='statics'>
+            <div id='35champ' class='attack'>Ataque</div>
+            <div id='35champ' class='defense'>Defensa</div>
+            <div id='35champ' class='hechizos'>Hechizo</div>
+            <div id='35champ' class='diff'>Dificultad</div>
+        </div>
+        
+
     </div>
-<!---------------------------------------------------------------->    
+   
     </div>
     
     
- 	<div class="container">
+ 	<div id="container" class="container">
+    <button onclick="createstats()">MOSTRAR STATS!!</button>
     <h1>NOVEDADES</h1>
+    <div class="cleaner"></div>
     </div>
-	
+<!----------------------------------------------------------------> 
     <div class="guides">
     <h1>GUIAS</h1>
     </div>
