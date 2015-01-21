@@ -1,7 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 	body{
-		cursor: url(images/gam1337.cur), url(images/gam1337.cur), default	;
+		cursor: url(images/gam1337.cur), url(images/gam1337.cur), default;
+	}
+	
+	a{
+		cursor: url(images/gam1337.cur), url(images/gam1337H.cur), pointer;
 	}
 	
 	.slide_cont{
@@ -13,7 +17,7 @@
 	.slide_min{
 		background:url(images/color_grey_103.jpg);
 		height:200px;
-		width:1111px;
+		width:1110px;
 		
 		-webkit-transition:height 1s;
 		-moz-transition: height 1s;
