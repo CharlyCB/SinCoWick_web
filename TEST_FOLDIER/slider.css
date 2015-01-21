@@ -69,13 +69,16 @@
 		background-size:cover;
 		margin: -13px 0 0 1095px;
 		z-index:999999;
+		
+		border-radius: 14px 14px 14px 14px; /**/
 	}
 	
 	.slide_cont .close:hover{
+		cursor:pointer;
+		background:url(images/botonGX-press.png) no-repeat;
 		height:32px;
 		width:32px;
 		position:absolute;
-		background:url(images/botonGX-press.png) no-repeat;
 		background-size:cover;
 		margin: -13px 0 0 1095px;
 		z-index:999999;
@@ -196,7 +199,7 @@
 	.slide_min #spid20{background-position: -205px 0px;}
 	#lgid20{background:url(images/marco_champ/mc_20.png) no-repeat; background-size:100% 100%;}
 
-/************************************** 11-20 ***********************************************/
+/**************************************  11-20  ***********************************************/
 
 	#spid21{background:url(images/splashes/id_21.jpg) no-repeat;background-size:cover;}
 	.slide_min #spid21{	background-position: -182px 0px;}
@@ -238,7 +241,7 @@
 	.slide_min #spid30{	background-position: -182px 0px;}
 	#lgid30{background:url(images/marco_champ/mc_30.png) no-repeat; background-size:100% 100%;}
 
-/************************************** 21-30 ***********************************************/
+/**************************************  21-30  ***********************************************/
 	
 	#spid31{background:url(images/splashes/id_31.jpg) no-repeat;background-size:cover;}
 	.slide_min #spid31{	background-position: -138px 0px;}
@@ -280,7 +283,7 @@
 	.slide_min #spid40{	background-position: -200px 0px;}
 	#lgid40{background:url(images/marco_champ/mc_40.png) no-repeat; background-size:100% 100%;}
 	
-/**************************************  31-40  ***********************************************/
+/**************************************   31-40   ***********************************************/
 	
 	#spid41{background:url(images/splashes/id_41.jpg) no-repeat;background-size:cover;}
 	.slide_min #spid41{	background-position: -200px 0px;}
@@ -310,7 +313,7 @@
 	.slide_min #spid50{	background-position: -200px 0px;}
 	#lgid50{background:url(images/marco_champ/mc_50.png) no-repeat; background-size:100% 100%;}
 
-/**************************************  41-50  ***********************************************/
+/**************************************   41-50   ***********************************************/
 
 	#spid51{background:url(images/splashes/id_51.jpg) no-repeat;background-size:cover;}
 	.slide_min #spid51{	background-position: -200px 0px;}
@@ -348,7 +351,7 @@
 	.slide_min #spid60{	background-position: -189px 0px;}
 	#lgid60{background:url(images/marco_champ/mc_60.png) no-repeat; background-size:100% 100%;}
 
-/**************************************  51-60  ***********************************************/
+/**************************************   51-60   ***********************************************/
 
 	#spid61{background:url(images/splashes/id_61.jpg) no-repeat;background-size:cover;}
 	.slide_min #spid61{	background-position: -206px 0px;}
@@ -390,7 +393,7 @@
 	.slide_min #spid75{	background-position: -165px 0px;}
 	#lgid75{background:url(images/marco_champ/mc_75.png) no-repeat; background-size:100% 100%;}
 
-/**************************************  61-70  ***********************************************/
+/**************************************   61-70   ***********************************************/
 
 	#spid76{background:url(images/splashes/id_76.jpg) no-repeat;background-size:cover;}
 	.slide_min #spid76{	background-position: -197px 0px;}
@@ -433,7 +436,7 @@
 	#lgid85{background:url(images/marco_champ/mc_85.png) no-repeat; background-size:100% 100%;}
 
 
-/**************************************  76-85  ***********************************************/
+/**************************************   76-85   ***********************************************/
 
 	#spid86{background:url(images/splashes/id_86.jpg) no-repeat;background-size:cover;}
 	.slide_min #spid86{	background-position: -197px 0px;}
@@ -475,10 +478,52 @@
 	.slide_min #spid102{	background-position: -180px 0px;}
 	#lgid102{background:url(images/marco_champ/mc_102.png) no-repeat; background-size:100% 100%;}
 
-/**************************************  86-102 ***********************************************/
+
+/**************************************   86-102  ***********************************************/
+
+	#spid103{background:url(images/splashes/id_103.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid103{	background-position: -146px 0px;}
+	#lgid103{background:url(images/marco_champ/mc_103.png) no-repeat; background-size:100% 100%;}
+
+	#spid104{background:url(images/splashes/id_104.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid104{	background-position: -180px 0px;}
+	#lgid104{background:url(images/marco_champ/mc_104.png) no-repeat; background-size:100% 100%;}
+
+	#spid105{background:url(images/splashes/id_105.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid105{	background-position: -215px 0px;}
+	#lgid105{background:url(images/marco_champ/mc_105.png) no-repeat; background-size:100% 100%;}
+
+	#spid106{background:url(images/splashes/id_106.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid106{	background-position: -193px 0px;}
+	#lgid106{background:url(images/marco_champ/mc_106.png) no-repeat; background-size:100% 100%;}
+
+	#spid107{background:url(images/splashes/id_107.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid107{	background-position: -155px 0px;}
+	#lgid107{background:url(images/marco_champ/mc_107.png) no-repeat; background-size:100% 100%;}
+
+	#spid110{background:url(images/splashes/id_110.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid110{	background-position: -180px 0px;}
+	#lgid110{background:url(images/marco_champ/mc_110.png) no-repeat; background-size:100% 100%;}
+
+	#spid111{background:url(images/splashes/id_111.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid111{	background-position: -202px 0px;}
+	#lgid111{background:url(images/marco_champ/mc_111.png) no-repeat; background-size:100% 100%;}
+
+	#spid112{background:url(images/splashes/id_112.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid112{	background-position: -158px 0px;}
+	#lgid112{background:url(images/marco_champ/mc_112.png) no-repeat; background-size:100% 100%;}
+	
+	#spid113{background:url(images/splashes/id_113.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid113{	background-position: -167px 0px;}
+	#lgid113{background:url(images/marco_champ/mc_113.png) no-repeat; background-size:100% 100%;}
+
+	#spid114{background:url(images/splashes/id_114.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid114{	background-position: -193px 0px;}
+	#lgid114{background:url(images/marco_champ/mc_114.png) no-repeat; background-size:100% 100%;}
 
 
-/**************************************  91-100 ***********************************************/
+
+/**************************************  103 - 114 ***********************************************/
 
 
 

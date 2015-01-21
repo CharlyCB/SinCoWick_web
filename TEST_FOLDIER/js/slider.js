@@ -8,7 +8,7 @@
 	
 	function bigimg(target){
 		var id = target.replace('spid','');
-		for(var a = 86; a < 102; a++){
+		for(var a = 103; a < 114; a++){
 			if( 'spid'+a == target){
 				document.getElementById(target).className = "minislide target";
 			}
@@ -22,7 +22,7 @@
 	function closeslider(){
 		document.getElementById("slider").className = "slide_min";
 		document.getElementById('close').className = "";
-		for(var a = 86; a < 102; a++){
+		for(var a = 103; a < 114; a++){
 				document.getElementById('spid'+a).className = "minislide";
 		}
 	}
