@@ -1,0 +1,650 @@
+@charset "utf-8";
+/* CSS Document */
+	body{
+		cursor: url(../images/gam1337.cur) , url(../images/gam1337.cur) , default;
+	}
+	
+	a{
+		cursor:url(../images/gam1337H.cur) , pointer;
+	}
+	
+	.slide_cont{
+		background: #000 center;
+		background-size:contain;
+		width:1111px;
+		border: 5px solid #000;
+	}
+	.slide_min{
+		background:url(../images/color_grey_103.jpg);
+		height:200px;
+		width:1110px;
+		
+		-webkit-transition:height 1s;
+		-moz-transition: height 1s;
+		-ms-transition: height 1s;
+		-o-transition: height 1s;
+		
+	}
+	.minislide{
+		  width: 109px;
+		  height: 100%;
+		  float: left;
+		  border: 1px solid #000;
+		  -webkit-transition: width 1s;
+		  -moz-transition: width 1s;
+		  -ms-transition: width 1s;
+		  -o-transition: width 1s;
+		  
+		  -webkit-filter: brightness(0.85);/* Chrome y Safari */
+	      -moz-filter: brightness(0.85);/* Mozilla */
+		  -ms-filter: brightness(0.85);/* Internet Explorer */
+		  -o-filter:  brightness(0.85);/* Opera */
+	}
+	.minislide:hover{		  
+		-webkit-filter: brightness(1);
+	}
+	
+	.slide_max{
+		background:url(../images/color_grey_103.jpg);
+		height:450px;
+		width:1111px;
+		
+		-webkit-transition:height 1s;
+		  -moz-transition: height 1s;
+		  -ms-transition: height 1s;
+		  -o-transition: height 1s;
+	}
+	.notarget{
+		width:38px;
+		-webkit-transition: width 1s;
+	    -moz-transition: width 1s;
+		-ms-transition: width 1s;
+		-o-transition: width 1s;
+	}
+	.target{
+		width:748px;
+		-webkit-transition: width 1s;
+		-moz-transition: width 1s;
+		-ms-transition: width 1s;
+		-o-transition: width 1s;
+	}
+	.slide_cont .close{
+		height:32px;
+		width:32px;
+		position:absolute;
+		background:url(../images/botonGX.png) no-repeat;
+		background-size:cover;
+		margin: -13px 0 0 1095px;
+		z-index:999999;
+		
+		border-radius: 14px 14px 14px 14px; /**/
+	}
+	
+	.slide_cont .close:hover{
+		background:url(../images/botonGX-press.png) no-repeat;
+		height:32px;
+		width:32px;
+		position:absolute;
+		background-size:cover;
+		margin: -13px 0 0 1095px;
+		z-index:999999;
+	}
+	
+	.slide_max .target .biglogo{
+		height:150px;
+		width:300px;
+		background-size:100% 100%;
+		margin: 300px 0 0 0px;
+		-webkit-transition: margin 1s, width 1s, height 1s;
+		-moz-transition: margin 1s, width 1s, height 1s;
+		-ms-transition: margin 1s, width 1s, height 1s;
+		-o-transition: margin 1s, width 1s, height 1s;		
+	}
+	.slide_max .target .skill_cont{
+		visibility:visible;
+		margin-top:168px;
+		height:150px;
+		background:#FFF;
+		opacity:0.7;
+	}	
+	.slide_min .minislide .biglogo{
+		height:70px;
+		width:145px;
+		margin: 140px 0 0 -17px;
+		-webkit-transition: margin 1s, width 1s, height 1s;
+		-moz-transition: margin 1s, width 1s, height 1s;
+		-ms-transition: margin 1s, width 1s, height 1s;
+		-o-transition: margin 1s, width 1s, height 1s;
+	}
+	.minislide .biglogo a{
+		display:block;
+		height:100%;
+		width:100%;
+	}
+	
+	/*Insertamos las imagenes*/
+	#spid1{	background:url(../images/splashes/id_1.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid1{background-position: -210px 0px;}
+	#lgid1{background:url(../images/marco_champ/mc_1.png) no-repeat; background-size:100% 100%;}
+	
+	#spid2{background:url(../images/splashes/id_2.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid2{background-position: -160px 0px;}
+	#lgid2{background:url(../images/marco_champ/mc_2.png) no-repeat; background-size:100% 100%;}
+	
+	#spid3{	background:url(../images/splashes/id_3.jpg) no-repeat;	background-size:cover;}
+	.slide_min #spid3{	background-position: -160px 0px;}
+	#lgid3{background:url(../images/marco_champ/mc_3.png) no-repeat; background-size:100% 100%;}
+	
+	#spid4{	background:url(../images/splashes/id_4.jpg) no-repeat;	background-size:cover;}
+	.slide_min #spid4{	background-position: -170px 0px;}
+	#lgid4{background:url(../images/marco_champ/mc_4.png) no-repeat; background-size:100% 100%;}
+	
+	#spid5{	background:url(../images/splashes/id_5.jpg) no-repeat;	background-size:cover;}
+	.slide_min #spid5{	background-position: -190px 0px;}
+	#lgid5{background:url(../images/marco_champ/mc_5.png) no-repeat; background-size:100% 100%;}
+	
+	#spid6{background:url(../images/splashes/id_6.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid6{background-position: -140px 0px;}
+	#lgid6{background:url(../images/marco_champ/mc_6.png) no-repeat; background-size:100% 100%;}
+	
+	#spid7{	background:url(../images/splashes/id_7.jpg) no-repeat;	background-size:cover;}
+	.slide_min #spid7{	background-position: -180px 0px;}
+	#lgid7{background:url(../images/marco_champ/mc_7.png) no-repeat; background-size:100% 100%;}
+	
+	#spid8{	background:url(../images/splashes/id_8.jpg) no-repeat;	background-size:cover;}
+	.slide_min #spid8{	background-position: -180px 0px;}
+	#lgid8{background:url(../images/marco_champ/mc_8.png) no-repeat; background-size:100% 100%;}
+	
+	#spid9{	background:url(../images/splashes/id_9.jpg) no-repeat;	background-size:cover;}
+	.slide_min #spid9{	background-position: -190px 0px;}
+	#lgid9{background:url(../images/marco_champ/mc_9.png) no-repeat; background-size:100% 100%;}
+	
+	#spid10{background:url(../images/splashes/id_10.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid10{	background-position: -180px 0px;}
+	#lgid10{background:url(../images/marco_champ/mc_10.png) no-repeat; background-size:100% 100%;}
+	
+/**************************************  1-10  ***********************************************/
+
+	#spid11{background:url(../images/splashes/id_11.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid11{	background-position: -211px 0px;}
+	#lgid11{background:url(../images/marco_champ/mc_11.png) no-repeat; background-size:100% 100%;}
+
+	#spid12{background:url(../images/splashes/id_12.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid12{	background-position: -154px 0px;}
+	#lgid12{background:url(../images/marco_champ/mc_12.png) no-repeat; background-size:100% 100%;}
+	
+	#spid13{background:url(../images/splashes/id_13.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid13{	background-position: -181px 0px;}
+	#lgid13{background:url(../images/marco_champ/mc_13.png) no-repeat; background-size:100% 100%;}
+	
+	#spid14{background:url(../images/splashes/id_14.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid14{	background-position: -175px 0px;}
+	#lgid14{background:url(../images/marco_champ/mc_14.png) no-repeat; background-size:100% 100%;}
+	
+	#spid15{background:url(../images/splashes/id_15.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid15{	background-position: -173px 0px;}
+	#lgid15{background:url(../images/marco_champ/mc_15.png) no-repeat; background-size:100% 100%;}
+	
+	#spid16{background:url(../images/splashes/id_16.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid16{	background-position: -136px 0px;}
+	#lgid16{background:url(../images/marco_champ/mc_16.png) no-repeat; background-size:100% 100%;}
+	
+	#spid17{background:url(../images/splashes/id_17.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid17{	background-position: -182px 0px;}
+	#lgid17{background:url(../images/marco_champ/mc_17.png) no-repeat; background-size:100% 100%;}
+	
+	#spid18{background:url(../images/splashes/id_18.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid18{	background-position: -191px 0px;}
+	#lgid18{background:url(../images/marco_champ/mc_18.png) no-repeat; background-size:100% 100%;}
+	
+	#spid19{background:url(../images/splashes/id_19.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid19{	background-position: -201px 0px;}
+	#lgid19{background:url(../images/marco_champ/mc_19.png) no-repeat; background-size:100% 100%;}
+	
+	#spid20{	background:url(../images/splashes/id_20.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid20{background-position: -205px 0px;}
+	#lgid20{background:url(../images/marco_champ/mc_20.png) no-repeat; background-size:100% 100%;}
+
+/**************************************  11-20  ***********************************************/
+
+	#spid21{background:url(../images/splashes/id_21.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid21{	background-position: -182px 0px;}
+	#lgid21{background:url(../images/marco_champ/mc_21.png) no-repeat; background-size:100% 100%;}
+
+	#spid22{background:url(../images/splashes/id_22.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid22{	background-position: -182px 0px;}
+	#lgid22{background:url(../images/marco_champ/mc_22.png) no-repeat; background-size:100% 100%;}
+
+	#spid23{background:url(../images/splashes/id_23.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid23{	background-position: -182px 0px;}
+	#lgid23{background:url(../images/marco_champ/mc_23.png) no-repeat; background-size:100% 100%;}
+
+	#spid24{background:url(../images/splashes/id_24.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid24{	background-position: -182px 0px;}
+	#lgid24{background:url(../images/marco_champ/mc_24.png) no-repeat; background-size:100% 100%;}
+
+	#spid25{background:url(../images/splashes/id_25.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid25{	background-position: -182px 0px;}
+	#lgid25{background:url(../images/marco_champ/mc_25.png) no-repeat; background-size:100% 100%;}
+
+	#spid26{background:url(../images/splashes/id_26.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid26{	background-position: -182px 0px;}
+	#lgid26{background:url(../images/marco_champ/mc_26.png) no-repeat; background-size:100% 100%;}
+
+	#spid27{background:url(../images/splashes/id_27.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid27{	background-position: -182px 0px;}
+	#lgid27{background:url(../images/marco_champ/mc_27.png) no-repeat; background-size:100% 100%;}
+
+	#spid28{background:url(../images/splashes/id_28.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid28{	background-position: -182px 0px;}
+	#lgid28{background:url(../images/marco_champ/mc_28.png) no-repeat; background-size:100% 100%;}
+
+	#spid29{background:url(../images/splashes/id_29.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid29{	background-position: -182px 0px;}
+	#lgid29{background:url(../images/marco_champ/mc_29.png) no-repeat; background-size:100% 100%;}
+
+	#spid30{background:url(../images/splashes/id_30.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid30{	background-position: -182px 0px;}
+	#lgid30{background:url(../images/marco_champ/mc_30.png) no-repeat; background-size:100% 100%;}
+
+/**************************************  21-30  ***********************************************/
+	
+	#spid31{background:url(../images/splashes/id_31.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid31{	background-position: -138px 0px;}
+	#lgid31{background:url(../images/marco_champ/mc_31.png) no-repeat; background-size:100% 100%;}
+	
+	#spid32{background:url(../images/splashes/id_32.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid32{	background-position: -164px 0px;}
+	#lgid32{background:url(../images/marco_champ/mc_32.png) no-repeat; background-size:100% 100%;}
+	
+	#spid33{background:url(../images/splashes/id_33.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid33{	background-position: -193px 0px;}
+	#lgid33{background:url(../images/marco_champ/mc_33.png) no-repeat; background-size:100% 100%;}
+	
+	#spid34{background:url(../images/splashes/id_34.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid34{	background-position: -182px 0px;}
+	#lgid34{background:url(../images/marco_champ/mc_34.png) no-repeat; background-size:100% 100%;}
+	
+	#spid35{background:url(../images/splashes/id_35.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid35{	background-position: -182px 0px;}
+	#lgid35{background:url(../images/marco_champ/mc_35.png) no-repeat; background-size:100% 100%;}
+	
+	#spid36{background:url(../images/splashes/id_36.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid36{	background-position: -182px 0px;}
+	#lgid36{background:url(../images/marco_champ/mc_36.png) no-repeat; background-size:100% 100%;}
+	
+	#spid37{background:url(../images/splashes/id_37.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid37{	background-position: -182px 0px;}
+	#lgid37{background:url(../images/marco_champ/mc_37.png) no-repeat; background-size:100% 100%;}
+	
+	#spid38{background:url(../images/splashes/id_38.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid38{	background-position: -182px 0px;}
+	#lgid38{background:url(../images/marco_champ/mc_38.png) no-repeat; background-size:100% 100%;}
+	
+	#spid39{background:url(../images/splashes/id_39.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid39{	background-position: -205px 0px;}
+	#lgid39{background:url(../images/marco_champ/mc_39.png) no-repeat; background-size:100% 100%;}
+	
+	#spid40{background:url(../images/splashes/id_40.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid40{	background-position: -200px 0px;}
+	#lgid40{background:url(../images/marco_champ/mc_40.png) no-repeat; background-size:100% 100%;}
+	
+/**************************************   31-40   ***********************************************/
+	
+	#spid41{background:url(../images/splashes/id_41.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid41{	background-position: -200px 0px;}
+	#lgid41{background:url(../images/marco_champ/mc_41.png) no-repeat; background-size:100% 100%;}
+
+	#spid42{background:url(../images/splashes/id_42.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid42{	background-position: -200px 0px;}
+	#lgid42{background:url(../images/marco_champ/mc_42.png) no-repeat; background-size:100% 100%;}
+
+	#spid43{background:url(../images/splashes/id_43.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid43{	background-position: -193px 0px;}
+	#lgid43{background:url(../images/marco_champ/mc_43.png) no-repeat; background-size:100% 100%;}
+
+	#spid44{background:url(../images/splashes/id_44.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid44{	background-position: -200px 0px;}
+	#lgid44{background:url(../images/marco_champ/mc_44.png) no-repeat; background-size:100% 100%;}
+
+	#spid45{background:url(../images/splashes/id_45.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid45{	background-position: -151px 0px;}
+	#lgid45{background:url(../images/marco_champ/mc_45.png) no-repeat; background-size:100% 100%;}
+
+	#spid48{background:url(../images/splashes/id_48.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid48{	background-position: -161px 0px;}
+	#lgid48{background:url(../images/marco_champ/mc_48.png) no-repeat; background-size:100% 100%;}
+
+	#spid50{background:url(../images/splashes/id_50.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid50{	background-position: -200px 0px;}
+	#lgid50{background:url(../images/marco_champ/mc_50.png) no-repeat; background-size:100% 100%;}
+
+/**************************************   41-50   ***********************************************/
+
+	#spid51{background:url(../images/splashes/id_51.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid51{	background-position: -200px 0px;}
+	#lgid51{background:url(../images/marco_champ/mc_51.png) no-repeat; background-size:100% 100%;}
+
+	#spid53{background:url(../images/splashes/id_53.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid53{	background-position:-154px 0px;}
+	#lgid53{background:url(../images/marco_champ/mc_53.png) no-repeat; background-size:100% 100%;}
+
+	#spid54{background:url(../images/splashes/id_54.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid54{	background-position: -179px 0px;}
+	#lgid54{background:url(../images/marco_champ/mc_54.png) no-repeat; background-size:100% 100%;}
+
+	#spid55{background:url(../images/splashes/id_55.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid55{	background-position: -217px 0px;}
+	#lgid55{background:url(../images/marco_champ/mc_55.png) no-repeat; background-size:100% 100%;}
+
+	#spid56{background:url(../images/splashes/id_56.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid56{	background-position: -186px 0px;}
+	#lgid56{background:url(../images/marco_champ/mc_56.png) no-repeat; background-size:100% 100%;}
+
+	#spid57{background:url(../images/splashes/id_57.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid57{	background-position: -179px 0px;}
+	#lgid57{background:url(../images/marco_champ/mc_57.png) no-repeat; background-size:100% 100%;}
+
+	#spid58{background:url(../images/splashes/id_58.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid58{	background-position: -148px 0px;}
+	#lgid58{background:url(../images/marco_champ/mc_58.png) no-repeat; background-size:100% 100%;}
+
+	#spid59{background:url(../images/splashes/id_59.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid59{	background-position: -190px 0px;}
+	#lgid59{background:url(../images/marco_champ/mc_59.png) no-repeat; background-size:100% 100%;}
+
+	#spid60{background:url(../images/splashes/id_60.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid60{	background-position: -189px 0px;}
+	#lgid60{background:url(../images/marco_champ/mc_60.png) no-repeat; background-size:100% 100%;}
+
+/**************************************   51-60   ***********************************************/
+
+	#spid61{background:url(../images/splashes/id_61.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid61{	background-position: -206px 0px;}
+	#lgid61{background:url(../images/marco_champ/mc_61.png) no-repeat; background-size:100% 100%;}
+
+	#spid62{background:url(../images/splashes/id_62.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid62{	background-position: -175px 0px;}
+	#lgid62{background:url(../images/marco_champ/mc_62.png) no-repeat; background-size:100% 100%;}
+
+	#spid63{background:url(../images/splashes/id_63.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid63{	background-position: -205px 0px;}
+	#lgid63{background:url(../images/marco_champ/mc_63.png) no-repeat; background-size:100% 100%;}
+
+	#spid64{background:url(../images/splashes/id_64.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid64{	background-position: -145px 0px;}
+	#lgid64{background:url(../images/marco_champ/mc_64.png) no-repeat; background-size:100% 100%;}
+
+	#spid67{background:url(../images/splashes/id_67.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid67{	background-position: -201px 0px;}
+	#lgid67{background:url(../images/marco_champ/mc_67.png) no-repeat; background-size:100% 100%;}
+
+	#spid68{background:url(../images/splashes/id_68.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid68{	background-position: -179px 0px;}
+	#lgid68{background:url(../images/marco_champ/mc_68.png) no-repeat; background-size:100% 100%;}
+
+	#spid69{background:url(../images/splashes/id_69.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid69{	background-position: -179px 0px;}
+	#lgid69{background:url(../images/marco_champ/mc_69.png) no-repeat; background-size:100% 100%;}
+
+	#spid72{background:url(../images/splashes/id_72.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid72{	background-position: -179px 0px;}
+	#lgid72{background:url(../images/marco_champ/mc_72.png) no-repeat; background-size:100% 100%;}
+
+	#spid74{background:url(../images/splashes/id_74.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid74{	background-position: -192px 0px;}
+	#lgid74{background:url(../images/marco_champ/mc_74.png) no-repeat; background-size:100% 100%;}
+
+	#spid75{background:url(../images/splashes/id_75.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid75{	background-position: -165px 0px;}
+	#lgid75{background:url(../images/marco_champ/mc_75.png) no-repeat; background-size:100% 100%;}
+
+/**************************************   61-70   ***********************************************/
+
+	#spid76{background:url(../images/splashes/id_76.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid76{	background-position: -197px 0px;}
+	#lgid76{background:url(../images/marco_champ/mc_76.png) no-repeat; background-size:100% 100%;}
+
+	#spid77{background:url(../images/splashes/id_77.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid77{	background-position: -143px 0px;}
+	#lgid77{background:url(../images/marco_champ/mc_77.png) no-repeat; background-size:100% 100%;}
+
+	#spid78{background:url(../images/splashes/id_78.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid78{	background-position: -206px 0px;}
+	#lgid78{background:url(../images/marco_champ/mc_78.png) no-repeat; background-size:100% 100%;}
+
+	#spid79{background:url(../images/splashes/id_79.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid79{	background-position: -138px 0px;}
+	#lgid79{background:url(../images/marco_champ/mc_79.png) no-repeat; background-size:100% 100%;}
+
+	#spid80{background:url(../images/splashes/id_80.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid80{	background-position: -179px 0px;}
+	#lgid80{background:url(../images/marco_champ/mc_80.png) no-repeat; background-size:100% 100%;}
+
+	#spid81{background:url(../images/splashes/id_81.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid81{	background-position: -157px 0px;}
+	#lgid81{background:url(../images/marco_champ/mc_81.png) no-repeat; background-size:100% 100%;}
+
+	#spid82{background:url(../images/splashes/id_82.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid82{	background-position: -170px 0px;}
+	#lgid82{background:url(../images/marco_champ/mc_82.png) no-repeat; background-size:100% 100%;}
+
+	#spid83{background:url(../images/splashes/id_83.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid83{	background-position: -179px 0px;}
+	#lgid83{background:url(../images/marco_champ/mc_83.png) no-repeat; background-size:100% 100%;}
+
+	#spid84{background:url(../images/splashes/id_84.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid84{	background-position: -142px 0px;}
+	#lgid84{background:url(../images/marco_champ/mc_84.png) no-repeat; background-size:100% 100%;}
+
+	#spid85{background:url(../images/splashes/id_85.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid85{	background-position: -197px 0px;}
+	#lgid85{background:url(../images/marco_champ/mc_85.png) no-repeat; background-size:100% 100%;}
+
+
+/**************************************   76-85   ***********************************************/
+
+	#spid86{background:url(../images/splashes/id_86.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid86{	background-position: -197px 0px;}
+	#lgid86{background:url(../images/marco_champ/mc_86.png) no-repeat; background-size:100% 100%;}
+
+	#spid89{background:url(../images/splashes/id_89.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid89{	background-position: -197px 0px;}
+	#lgid89{background:url(../images/marco_champ/mc_89.png) no-repeat; background-size:100% 100%;}
+
+	#spid90{background:url(../images/splashes/id_90.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid90{	background-position: -197px 0px;}
+	#lgid90{background:url(../images/marco_champ/mc_90.png) no-repeat; background-size:100% 100%;}
+
+	#spid91{background:url(../images/splashes/id_91.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid91{	background-position: -161px 0px;}
+	#lgid91{background:url(../images/marco_champ/mc_91.png) no-repeat; background-size:100% 100%;}
+
+	#spid92{background:url(../images/splashes/id_92.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid92{	background-position: -189px 0px;}
+	#lgid92{background:url(../images/marco_champ/mc_92.png) no-repeat; background-size:100% 100%;}
+
+	#spid96{background:url(../images/splashes/id_96.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid96{	background-position: -176px 0px;}
+	#lgid96{background:url(../images/marco_champ/mc_96.png) no-repeat; background-size:100% 100%;}
+
+	#spid98{background:url(../images/splashes/id_98.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid98{	background-position: -181px 0px;}
+	#lgid98{background:url(../images/marco_champ/mc_98.png) no-repeat; background-size:100% 100%;}
+
+	#spid99{background:url(../images/splashes/id_99.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid99{	background-position: -154px 0px;}
+	#lgid99{background:url(../images/marco_champ/mc_99.png) no-repeat; background-size:100% 100%;}
+
+	#spid101{background:url(../images/splashes/id_101.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid101{	background-position: -144px 0px;}
+	#lgid101{background:url(../images/marco_champ/mc_101.png) no-repeat; background-size:100% 100%;}
+
+	#spid102{background:url(../images/splashes/id_102.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid102{	background-position: -180px 0px;}
+	#lgid102{background:url(../images/marco_champ/mc_102.png) no-repeat; background-size:100% 100%;}
+
+
+/**************************************   86-102  ***********************************************/
+
+	#spid103{background:url(../images/splashes/id_103.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid103{	background-position: -146px 0px;}
+	#lgid103{background:url(../images/marco_champ/mc_103.png) no-repeat; background-size:100% 100%;}
+
+	#spid104{background:url(../images/splashes/id_104.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid104{	background-position: -180px 0px;}
+	#lgid104{background:url(../images/marco_champ/mc_104.png) no-repeat; background-size:100% 100%;}
+
+	#spid105{background:url(../images/splashes/id_105.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid105{	background-position: -215px 0px;}
+	#lgid105{background:url(../images/marco_champ/mc_105.png) no-repeat; background-size:100% 100%;}
+
+	#spid106{background:url(../images/splashes/id_106.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid106{	background-position: -193px 0px;}
+	#lgid106{background:url(../images/marco_champ/mc_106.png) no-repeat; background-size:100% 100%;}
+
+	#spid107{background:url(../images/splashes/id_107.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid107{	background-position: -155px 0px;}
+	#lgid107{background:url(../images/marco_champ/mc_107.png) no-repeat; background-size:100% 100%;}
+
+	#spid110{background:url(../images/splashes/id_110.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid110{	background-position: -180px 0px;}
+	#lgid110{background:url(../images/marco_champ/mc_110.png) no-repeat; background-size:100% 100%;}
+
+	#spid111{background:url(../images/splashes/id_111.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid111{	background-position: -202px 0px;}
+	#lgid111{background:url(../images/marco_champ/mc_111.png) no-repeat; background-size:100% 100%;}
+
+	#spid112{background:url(../images/splashes/id_112.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid112{	background-position: -158px 0px;}
+	#lgid112{background:url(../images/marco_champ/mc_112.png) no-repeat; background-size:100% 100%;}
+	
+	#spid113{background:url(../images/splashes/id_113.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid113{	background-position: -167px 0px;}
+	#lgid113{background:url(../images/marco_champ/mc_113.png) no-repeat; background-size:100% 100%;}
+
+	#spid114{background:url(../images/splashes/id_114.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid114{	background-position: -193px 0px;}
+	#lgid114{background:url(../images/marco_champ/mc_114.png) no-repeat; background-size:100% 100%;}
+
+
+/**************************************  103 - 114 ***********************************************/
+	
+	
+	#spid115{background:url(../images/splashes/id_115.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid115{	background-position: -193px 0px;}
+	#lgid115{background:url(../images/marco_champ/mc_115.png) no-repeat; background-size:100% 100%;}
+
+	#spid117{background:url(../images/splashes/id_117.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid117{	background-position: -192px 0px;}
+	#lgid117{background:url(../images/marco_champ/mc_117.png) no-repeat; background-size:100% 100%;}
+
+	#spid119{background:url(../images/splashes/id_119.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid119{	background-position: -207px 0px;}
+	#lgid119{background:url(../images/marco_champ/mc_119.png) no-repeat; background-size:100% 100%;}
+
+	#spid120{background:url(../images/splashes/id_120.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid120{	background-position: -193px 0px;}
+	#lgid120{background:url(../images/marco_champ/mc_120.png) no-repeat; background-size:100% 100%;}
+
+	#spid121{background:url(../images/splashes/id_121.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid121{	background-position: -178px 0px;}
+	#lgid121{background:url(../images/marco_champ/mc_121.png) no-repeat; background-size:100% 100%;}
+
+	#spid122{background:url(../images/splashes/id_122.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid122{	background-position: -193px 0px;}
+	#lgid122{background:url(../images/marco_champ/mc_122.png) no-repeat; background-size:100% 100%;}
+
+	#spid126{background:url(../images/splashes/id_126.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid126{	background-position: -193px 0px;}
+	#lgid126{background:url(../images/marco_champ/mc_126.png) no-repeat; background-size:100% 100%;}
+
+	#spid127{background:url(../images/splashes/id_127.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid127{	background-position: -193px 0px;}
+	#lgid127{background:url(../images/marco_champ/mc_127.png) no-repeat; background-size:100% 100%;}
+
+	#spid131{background:url(../images/splashes/id_131.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid131{	background-position: -185px 0px;}
+	#lgid131{background:url(../images/marco_champ/mc_131.png) no-repeat; background-size:100% 100%;}
+
+	#spid133{background:url(../images/splashes/id_133.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid133{	background-position: -162px 0px;}
+	#lgid133{background:url(../images/marco_champ/mc_133.png) no-repeat; background-size:100% 100%;}
+
+
+/**************************************  115 - 133 ***********************************************/
+
+	#spid134{background:url(../images/splashes/id_134.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid134{	background-position: -206px 0px;}
+	#lgid134{background:url(../images/marco_champ/mc_134.png) no-repeat; background-size:100% 100%;}
+
+	#spid143{background:url(../images/splashes/id_143.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid143{	background-position: -203px 0px;}
+	#lgid143{background:url(../images/marco_champ/mc_143.png) no-repeat; background-size:100% 100%;}
+
+	#spid150{background:url(../images/splashes/id_150.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid150{	background-position: -197px 0px;}
+	#lgid150{background:url(../images/marco_champ/mc_150.png) no-repeat; background-size:100% 100%;}
+
+	#spid154{background:url(../images/splashes/id_154.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid154{	background-position: -164px 0px;}
+	#lgid154{background:url(../images/marco_champ/mc_154.png) no-repeat; background-size:100% 100%;}
+
+	#spid157{background:url(../images/splashes/id_157.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid157{	background-position: -201px 0px;}
+	#lgid157{background:url(../images/marco_champ/mc_157.png) no-repeat; background-size:100% 100%;}
+
+	#spid161{background:url(../images/splashes/id_161.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid161{	background-position: -147px 0px;}
+	#lgid161{background:url(../images/marco_champ/mc_161.png) no-repeat; background-size:100% 100%;}
+
+	#spid201{background:url(../images/splashes/id_201.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid201{	background-position: -206px 0px;}
+	#lgid201{background:url(../images/marco_champ/mc_201.png) no-repeat; background-size:100% 100%;}
+
+	#spid222{background:url(../images/splashes/id_222.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid222{	background-position: -188px 0px;}
+	#lgid222{background:url(../images/marco_champ/mc_222.png) no-repeat; background-size:100% 100%;}
+
+	#spid236{background:url(../images/splashes/id_236.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid236{	background-position: -170px 0px;}
+	#lgid236{background:url(../images/marco_champ/mc_236.png) no-repeat; background-size:100% 100%;}
+
+	#spid238{background:url(../images/splashes/id_238.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid238{	background-position: -176px 0px;}
+	#lgid238{background:url(../images/marco_champ/mc_238.png) no-repeat; background-size:100% 100%;}
+
+
+/**************************************  134 - 238 ***********************************************/
+
+
+	#spid254{background:url(../images/splashes/id_254.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid254{	background-position: -193px 0px;}
+	#lgid254{background:url(../images/marco_champ/mc_254.png) no-repeat; background-size:100% 100%;}
+
+	#spid266{background:url(../images/splashes/id_266.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid266{	background-position: -166px 0px;}
+	#lgid266{background:url(../images/marco_champ/mc_266.png) no-repeat; background-size:100% 100%;}
+
+	#spid267{background:url(../images/splashes/id_267.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid267{	background-position: -180px 0px;}
+	#lgid267{background:url(../images/marco_champ/mc_267.png) no-repeat; background-size:100% 100%;}
+
+	#spid268{background:url(../images/splashes/id_268.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid268{	background-position: -186px 0px;}
+	#lgid268{background:url(../images/marco_champ/mc_268.png) no-repeat; background-size:100% 100%;}
+
+	#spid412{background:url(../images/splashes/id_412.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid412{	background-position: -176px 0px;}
+	#lgid412{background:url(../images/marco_champ/mc_412.png) no-repeat; background-size:100% 100%;}
+
+	#spid421{background:url(../images/splashes/id_421.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid421{	background-position: -145px 0px;}
+	#lgid421{background:url(../images/marco_champ/mc_421.png) no-repeat; background-size:100% 100%;}
+
+	#spid429{background:url(../images/splashes/id_429.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid429{	background-position: -176px 0px;}
+	#lgid429{background:url(../images/marco_champ/mc_429.png) no-repeat; background-size:100% 100%;}
+
+/**************************************  254 - 429 ***********************************************/
+/**************************************     FIN    ***********************************************/
