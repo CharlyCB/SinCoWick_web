@@ -57,19 +57,16 @@ function LoadBG(){
   
   
 <!-- InstanceBeginEditable name="CONTAINER WRAP" -->
-<script type="text/javascript" src="js/latminchamps.js"></script>	
-
-
 
 <div class="container_wrap">
-	<div class="publi">
+	
+    <div class="publi">
     <h1>PUBLICIDAD</h1>
     </div>
     
 
 	<div class="slider">
-    
-    <h1>SLIDER</h1>
+	<h1>SLIDER</h1>
     </div>
     
     <div id="right_bar" class="right_bar">
@@ -83,11 +80,11 @@ function LoadBG(){
 
     <div id="stats" class="stats">
         AHRI
-        <div id='2champ' class='statics'>
-            <div id='2champ' class='attack'>Ataque</div>
-            <div id='2champ' class='defense'>Defensa</div>
-            <div id='2champ' class='hechizos'>Hechizo</div>
-            <div id='2champ' class='diff'>Dificultad</div>
+        <div id='2champ' class='statics'>						<!-- BLOQUE STADISTICAS -->
+            <div id='2champ' class='attack'>Ataque</div>		<!-- BARRA DE ATAQUE (0-100)% -->
+            <div id='2champ' class='defense'>Defensa</div>		<!-- BARRA DE DEFENSA (0-100)% -->
+            <div id='2champ' class='hechizos'>Hechizo</div>		<!-- BARRA DE PODER DE HABILIDAD (0-100)% -->
+            <div id='2champ' class='diff'>Dificultad</div>		<!-- BARRA DE DIFICULTAD (0-100)% -->
         </div>
         
         SHACO
@@ -105,10 +102,12 @@ function LoadBG(){
     
     
  	<div id="container" class="container">
-    <button onclick="createstats()">MOSTRAR STATS!!</button>
+    <button onclick="createstats()">MOSTRAR STATS!!</button> <!-- CREA TABLAS DE STATS SEGUN EL CAMPEON (BASE DE DATOS) -->
     <h1>NOVEDADES</h1>
     <div class="cleaner"></div>
     </div>
+    
+    
 <!----------------------------------------------------------------> 
     <div class="guides">
     <h1>GUIAS</h1>
