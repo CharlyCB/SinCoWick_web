@@ -65,11 +65,22 @@
 		height:32px;
 		width:32px;
 		position:absolute;
-		background:url(images/botonX.png) no-repeat;
+		background:url(images/botonGX.png) no-repeat;
 		background-size:cover;
-		margin: -15px 0 0 1095px;
+		margin: -13px 0 0 1095px;
 		z-index:999999;
 	}
+	
+	.slide_cont .close:hover{
+		height:32px;
+		width:32px;
+		position:absolute;
+		background:url(images/botonGX-press.png) no-repeat;
+		background-size:cover;
+		margin: -13px 0 0 1095px;
+		z-index:999999;
+	}
+	
 	.slide_max .target .biglogo{
 		height:150px;
 		width:300px;
