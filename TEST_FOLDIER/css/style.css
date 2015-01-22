@@ -14,7 +14,7 @@ html, body{
 }
 .content{
 	min-height:100%;
-	background:url(../images/wallpaper/fondo_1.jpg) no-repeat fixed;
+	background:url(../images/wallpaper/fondo_0.jpg) no-repeat fixed;
 	background-position: center top;
 }
 .header_wrap{
@@ -364,43 +364,45 @@ html, body{
 .statics{
 	border: 2px solid #000;
 	width: 300px;
-	background-color:#999;
-}
-
-.defense{
-	height: 23px;
-	width: 40%;
-	border: 1px solid #000;
-	background-color: #0F0;
-	padding-left: 5px;
-	padding-top: 2px;
+	background-color: #999;
+	color: #FFF;
 }
 
 .attack{
 	height: 23px;
 	width: 30%;
 	border: 1px solid #000;
-	background-color: #F00;
 	padding-left: 5px;
 	padding-top: 2px;
+	background-image: url(../images/fondo_attack.jpg);
+}
+
+
+.defense{
+	height: 23px;
+	width: 40%;
+	border: 1px solid #000;
+	padding-left: 5px;
+	padding-top: 2px;
+	background-image: url(../images/fondo_defense.jpg);
 }
 
 .hechizos{
 	height: 23px;
 	width: 80%;
 	border: 1px solid #000 ;
-	background-color: #36F;
 	padding-left: 5px;
 	padding-top: 2px;
+	background-image: url(../images/fondo_hechizos.jpg);
 }
 
 .diff{
 	height: 23px;
 	width: 80%;
 	border: 1px solid #000;
-	background-color: #C09;
 	padding-left: 5px;
 	padding-top: 2px;
+	background-image: url(../images/fondo_diff.jpg);
 }
 
 
