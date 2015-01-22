@@ -1,11 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 	body{
-		cursor: url(../cursorXD.cur), url(../cursorXD.cur), pointer;
+		cursor: url(../images/normal.cur), url(../images/blue.cur), pointer;
 	}
 	
 	a{
-		cursor: url(../cursorXD2.cur), url(../cursorXD2.cur), pointer;
+		cursor: url(../images/blue.cur), url(../images/blue.cur), pointer;
 	}
 	
 	.slide_cont{
