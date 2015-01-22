@@ -75,7 +75,7 @@
 		background:url(../images/botonGX.png) no-repeat;
 		background-size:cover;
 		margin: -13px 0 0 1095px;
-		z-index:999999;
+		z-index: 2;
 		
 		border-radius: 14px 14px 14px 14px; /**/
 	}
