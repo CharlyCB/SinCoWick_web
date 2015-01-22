@@ -59,120 +59,97 @@ function LoadBG(){
 <!-- InstanceBeginEditable name="CONTAINER WRAP" -->
 
 <div class="container_wrap">
-	
     <div class="publi">
     <h1>PUBLICIDAD</h1>
     </div>
-    
-
-	<div class="slider">
-<script type="text/javascript" src="js/slider.js"></script>
-<link href="css/slider.css" rel="stylesheet" type="text/css" />
-<div class="slide_cont">
-	<a onclick="closeslider()" id="close"></a>
-    <div class="slide_min" onclick="bigslide();" id="slider">
-
-   		<div class="minislide" onclick="bigimg('spid1');" id="spid1">
-        	<div class="biglogo" id="lgid1"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid2');" id="spid2">
-        	<div class="biglogo" id="lgid2"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid3');" id="spid3">
-        	<div class="biglogo" id="lgid3"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid4');" id="spid4">
-        	<div class="biglogo" id="lgid4"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid5');" id="spid5">
-        	<div class="biglogo" id="lgid5"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid6');" id="spid6">
-        	<div class="biglogo" id="lgid6"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid7');" id="spid7">
-        	<div class="biglogo" id="lgid7"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid8');" id="spid8">
-        	<div class="biglogo" id="lgid8"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid9');" id="spid9">
-        	<div class="biglogo" id="lgid9"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid10');" id="spid10">
-        	<div class="biglogo" id="lgid10"><a href="#"></a></div>
-        </div>
-        
-    </div>
-</div>
-
-
-
-    </div>
-    
-    <div id="right_bar" class="right_bar">
-    </div>
-
-    <div id="process" class="process">
-    <h1>PROCESS</h1>
-
-<!-- MI PRUEBA DE ESTADISTICAS "http://es.leagueoflegends-es.wikia.com/wiki/Lista_de_campeones"-->
-	<script type="text/javascript" src="js/stats.js"></script>
-
-    <div id="stats" class="stats">
-        AHRI
-        <div id='2champ' class='statics'>						<!-- BLOQUE STADISTICAS -->
-            <div id='2champ' class='attack'>Ataque</div>		<!-- BARRA DE ATAQUE (0-100)% -->
-            <div id='2champ' class='defense'>Defensa</div>		<!-- BARRA DE DEFENSA (0-100)% -->
-            <div id='2champ' class='hechizos'>Hechizo</div>		<!-- BARRA DE PODER DE HABILIDAD (0-100)% -->
-            <div id='2champ' class='diff'>Dificultad</div>		<!-- BARRA DE DIFICULTAD (0-100)% -->
-        </div>
-        
-        SHACO
-        <div id='35champ' class='statics'>
-            <div id='35champ' class='attack'>Ataque</div>
-            <div id='35champ' class='defense'>Defensa</div>
-            <div id='35champ' class='hechizos'>Hechizo</div>
-            <div id='35champ' class='diff'>Dificultad</div>
-        </div>
-        
-
-    </div>
-   
-    </div>
-    
-    
- 	<div id="container" class="container">
-    <button onclick="createstats()">MOSTRAR STATS!!</button> <!-- CREA TABLAS DE STATS SEGUN EL CAMPEON (BASE DE DATOS) -->
-    <h1>NOVEDADES</h1>
     <div class="cleaner"></div>
-    </div>
-    
-    
-<!----------------------------------------------------------------> 
-    <div class="guides">
-    <h1>GUIAS</h1>
-    </div>
-    
-    <div class="videos">
-    <h1>VIDEOS</h1>
-    </div>
-    
+    <div class="container_mid">
+    <!-- Entre cada Seccion va un Cleaner para que no se superpongan! -->
+    <!-- Div del Slider -->
+    	<div class="slider">
+			<script type="text/javascript" src="js/slider.js"></script>
+            <link href="css/slider.css" rel="stylesheet" type="text/css" />
+            <div class="slide_cont">
+                <a onclick="closeslider()" id="close"></a>
+                <div class="slide_min" onclick="bigslide();" id="slider">
+                    <div class="minislide" onclick="bigimg('spid1');" id="spid1">
+                        <div class="biglogo" id="lgid1"><a href="#"></a></div>
+                    </div>
+                    <div class="minislide" onclick="bigimg('spid2');" id="spid2">
+                        <div class="biglogo" id="lgid2"><a href="#"></a></div>
+                    </div>
+                    <div class="minislide" onclick="bigimg('spid3');" id="spid3">
+                        <div class="biglogo" id="lgid3"><a href="#"></a></div>
+                    </div>            
+                    <div class="minislide" onclick="bigimg('spid4');" id="spid4">
+                        <div class="biglogo" id="lgid4"><a href="#"></a></div>
+                    </div>
+                    <div class="minislide" onclick="bigimg('spid5');" id="spid5">
+                        <div class="biglogo" id="lgid5"><a href="#"></a></div>
+                    </div>
+                    <div class="minislide" onclick="bigimg('spid6');" id="spid6">
+                        <div class="biglogo" id="lgid6"><a href="#"></a></div>
+                    </div>
+                    <div class="minislide" onclick="bigimg('spid7');" id="spid7">
+                        <div class="biglogo" id="lgid7"><a href="#"></a></div>
+                    </div>
+                    <div class="minislide" onclick="bigimg('spid8');" id="spid8">
+                        <div class="biglogo" id="lgid8"><a href="#"></a></div>
+                    </div>
+                    <div class="minislide" onclick="bigimg('spid9');" id="spid9">
+                        <div class="biglogo" id="lgid9"><a href="#"></a></div>
+                    </div>
+                    <div class="minislide" onclick="bigimg('spid10');" id="spid10">
+                        <div class="biglogo" id="lgid10"><a href="#"></a></div>
+                    </div>
+                </div>
+            </div>
+<!-- Fin Div Slider -->
     <div class="cleaner"></div>
-  </div>
-</div>
-
-
-
+    <!-- Wrap para el ultimo Champ -->
+    <div class="new_champ">
+    
+    </div>
+    <!-- Fin Wrap Ultimo Champ-->
+    <div class="cleaner"></div>
+    <!--Wrap para el div de Novedades-->
+    <div class="novedades">
+    
+    </div>
+    <!-- Fin Novedades -->
+    <div class="cleaner"></div>
+    <!-- wrap para Guias nuevas-->
+    <div class="guias_wrap">
+    
+    </div>
+    <!-- Fin de wrap para guias -->
+    </div>
+	<!-- Fin Container_mid -->
+    <div class="cleaner"></div>
+    <!-- contenedor lado derecho -->
+    <div class="right_bar">
+    	<!-- Parte de Face y Twitta -->
+        <div class="sociales">
+        
+        </div>
+        <!-- fin sociales -->
+        <div class="cleaner"></div>
+        <!-- Lista de videos -->
+        <div class="videos_wrap">
+        
+        </div>
+    	<!-- fin videos -->
+        <div class="cleaner"></div>
+        <!-- Propaganda inferior derecha -->
+    	<div class="right_publi">
+        
+        </div>
+        <!-- Fin propaganda derecha -->
+    </div>
+    <!-- Fin Right bar -->
+    </div>
+    <!-- Fin de Container_wrap-->
+    <div class="cleaner"></div>
 
 
 <!-- InstanceEndEditable -->
