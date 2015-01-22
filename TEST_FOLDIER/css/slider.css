@@ -1,11 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 	body{
-		cursor: url(../images/gam1337.cur) , url(../images/gam1337.cur) , default;
+		cursor: url(../images/Cursor%20LOL/normal.cur), url(../images/Cursor%20LOL/normal.cur), wait;
 	}
 	
 	a{
-		cursor:url(../images/gam1337H.cur) , pointer;
+		cursor:url(../images/Cursor%20LOL/blue.cur) , pointer;
 	}
 	
 	.slide_cont{
