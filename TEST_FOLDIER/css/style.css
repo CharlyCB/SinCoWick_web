@@ -109,7 +109,7 @@ html, body{
 }
 .container {
 	background-color: #009;
-	height: 480px;
+	height: 100%;
 	width:690px;
 	float: left;
 	margin-left: 25px;
