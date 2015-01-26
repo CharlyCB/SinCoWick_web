@@ -11,12 +11,11 @@
 
 html, body{
 	height:100%;
+	background:url(../images/wallpaper/fondo_0.jpg) no-repeat fixed;
+		background-size: cover;
 }
 .content{
 	min-height:100%;
-	background:url(../images/wallpaper/fondo_0.jpg) no-repeat fixed;
-	background-position: center top;
-	background-size: cover;
 }
 .header_wrap{
 	margin:41px 0 0 0;
@@ -107,22 +106,6 @@ html, body{
 	margin:0 auto;
 	width:1110px;
 	padding:30px;
-}
-.novedades {
-	background-color: #009;
-	height: 100%;
-	width:690px;
-	float: left;
-	margin-right: 25px;
-	margin-bottom: 30px;
-	padding: 10px;
-
-}
-.right_bar{
-	background-color: #0F0;
-	float: right;
-	width: 350px;
-	margin-bottom: 30px;
 }
 
 
@@ -302,7 +285,6 @@ html, body{
 }
 
 .slider{
-	width: 100%;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -328,37 +310,6 @@ html, body{
 .div_mini:hover{
 	-webkit-filter: brightness(1.5);
 }
-
-.process{
-	padding: 10px;
-	height: 400px;
-	float: left;
-	width:690px;
-	background-color: #F0F;
-	margin-left: 25px;
-	margin-bottom: 30px;
-	margin-right: 25px;
-}
-
-.guides{
-	height: 300px;
-	float: left;
-	width:690px;
-	background-color: #FF0;
-	margin-left: 25px;
-	margin-bottom: 30px;
-	margin-right: 25px;
-	padding: 10px;
-}
-
-.videos{
-	float: right;
-	margin-left: 1000px;
-	background-color: #300;
-	width: 350px;
-	height: 300px;
-}
-
 /* CUARO ESTADISTICAS BLOQUE + BARRAS */
 .statics{
 	border: 2px solid #000;
@@ -409,13 +360,11 @@ html, body{
 
 /* CUADRO NEW_CHAMP */
 .new_champ{
-	width: 607px;
+	width:  690px;
 	height: 143px;
-	margin-top: 30px;
 	margin-bottom: 30px;
 	background-image:url(../images/splashes/id_421.jpg);
-	background-size: contain;
-	margin: 30px auto;
+	background-size: cover;
 	padding-top: 215px;
 }
 
@@ -429,3 +378,23 @@ html, body{
 
 
 /*************************/
+
+.container_mid{
+	margin: 30px 0 0 0;
+	float:left;
+	width: 690px;
+	background:#F00;
+}
+.right_bar{
+	margin: 30px 0 0 0;
+	float:right;
+	width:380px;
+	height:150px;
+	background:#0F0;
+}
+
+.novedades {
+	background-color: #009;
+	width: 690px;
+	height:15px;
+}
