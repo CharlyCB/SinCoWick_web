@@ -12,6 +12,8 @@
 		background: #000 center;
 		background-size:contain;
 		width:1111px;
+		height: 100%;
+		margin-top: 30px;
 		border: 5px solid #000;
 	}
 	.slide_min{
