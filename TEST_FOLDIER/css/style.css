@@ -403,6 +403,18 @@ html, body{
 	height:380px;
 	background:#999;
 }
-.newchamp_stats{
+.skill{
+	position:absolute;
+}
+.skill ul{
 	background:#FFF;
+	list-style:none;
+}
+.skill ul li{
+	background:#00C;
+	float: left;
+	height:75px;
+	width:75px;
+	margin: 180px 5px 0 5px;
+	border:#000 solid 3px;
 }
