@@ -390,7 +390,6 @@ html, body{
 	margin: 30px 0 0 0;
 	float:right;
 	width:380px;
-	height:150px;
 	background:#0F0;
 }
 
@@ -398,4 +397,9 @@ html, body{
 	background-color: #009;
 	width: 690px;
 	height:15px;
+}
+.right_bar .right_publi{
+	width:380px;
+	height:380px;
+	background:#999;
 }
