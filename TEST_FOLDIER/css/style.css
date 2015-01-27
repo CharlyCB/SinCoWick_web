@@ -395,6 +395,7 @@ html, body{
 	background-color: #009;
 	width: 690px;
 	height:15px;
+	margin-bottom: 30px;
 }
 .right_bar .right_publi{
 	width:380px;
@@ -405,7 +406,7 @@ html, body{
 
 .skill{
 	position:absolute;
-	margin: 81px 9px;
+	margin: 83px 9px;
 }
 .skill ul{
 	background:#FFF;
@@ -426,4 +427,5 @@ html, body{
 
 .guias_wrap{
 	background-color: #30F; 
+	margin-bottom: 30px;
 }
