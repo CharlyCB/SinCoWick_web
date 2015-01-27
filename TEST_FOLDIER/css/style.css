@@ -382,7 +382,7 @@ html, body{
 	margin: 30px 0 0 0;
 	float:left;
 	width: 690px;
-	background:#F00;
+/*	background:#F00;*/
 }
 .right_bar{
 	margin: 30px 0 0 0;
@@ -428,4 +428,10 @@ html, body{
 .guias_wrap{
 	background-color: #30F; 
 	margin-bottom: 30px;
+}
+
+.footer_bg{
+	background-image: url(../images/fondo_footer%20(2).png);
+	background-size: cover;
+	height: 175px;
 }
