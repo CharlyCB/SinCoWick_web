@@ -2,9 +2,10 @@
 	require_once('execquery.php');
 	
 	//how to get free champs:
-	function getfreechamps(){
+	// i = numero de la posicion del array para obtener el camepeon.
+	function getfreechamps($i){
 		//Url donde esta nuestro JSON													  
-		$req = 'url';
+		$req = 'https://euw.api.pvp.net/api/lol/euw/v1.2/champion?freeToPlay=true&api_key=29e66e66-e148-4cda-8f1a-b627d7b09c10';
 		//Iniciamos cURL junto con la URL
 		$cVimeo = curl_init($req);
 		//Agregamos opciones necesarias para leer
@@ -16,9 +17,7 @@
 		//Asociamos los campos del JSON a variables
 		$titulo = $getVimeo['champions'];
 		//obtencion de las id's del array de rito:
-		for ($i=0; $i < count($titulo) ; $i++) { 
-			return $titulo[$i]['id'];
-		}
+		return $titulo[$i]['id'];
 	}
 	
 	//despues de obtener las id, necesitamos recuperar sus datos, nombre de la bd:
