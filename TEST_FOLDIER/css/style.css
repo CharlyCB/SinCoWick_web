@@ -360,12 +360,10 @@ html, body{
 
 /* CUADRO NEW_CHAMP */
 .new_champ{
-	width:  690px;
-	height: 275px;
+	height: 359px;
 	margin-bottom: 30px;
 	background:url(../images/splashes/id_421.jpg) no-repeat;
 	background-size: cover;
-	background-position: 0 -50px;
 }
 
 .shadow_box{
@@ -373,7 +371,7 @@ html, body{
 	position:absolute;
 	width: 690px;
 	height: 143px;
-	margin: 132px 0 0 0;
+	margin: 216px 0 0 0;
 	opacity: 0.4;
 }
 
@@ -403,8 +401,11 @@ html, body{
 	height:380px;
 	background:#999;
 }
+
+
 .skill{
 	position:absolute;
+	margin: 81px 9px;
 }
 .skill ul{
 	background:#FFF;
@@ -417,4 +418,12 @@ html, body{
 	width:75px;
 	margin: 180px 5px 0 5px;
 	border:#000 solid 3px;
+}
+
+.skill ul li:hover{
+	-webkit-filter: brightness(1.5);
+}
+
+.guias_wrap{
+	background-color: #30F; 
 }
