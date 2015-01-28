@@ -306,6 +306,7 @@ a{
 .div_mini{
 	float:left;
 	width: 70px;
+	height: 70px;
 	margin: 2px 2.5px;
 	-webkit-filter: brightness(0.85);/* Chrome y Safari */
 	-moz-filter: brightness(0.85);/* Mozilla */
