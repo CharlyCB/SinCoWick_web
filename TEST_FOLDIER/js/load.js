@@ -95,7 +95,7 @@ function prueba(){
 	
 	for (var i = 1; i <= 123; i++){
 		
-		document.getElementById("champs").innerHTML += 	"<a href="+names[u]+".html><div id=\""+ids[u]+"\"class=\"div_mini\" style=\"background: url('../images/champs_mini/mid_"+ids[u]+".png'); background-size: cover;\"></div></a>"
+		document.getElementById("champs").innerHTML += 	"<a href=\"http://es.leagueoflegends.wikia.com/wiki/"+names[u]+"\"><div id=\""+ids[u]+"\"class=\"div_mini\" style=\"background: url('../images/champs_mini/mid_"+ids[u]+".png'); background-size: cover;\"></div></a>"
 		u++;
 		
 		
