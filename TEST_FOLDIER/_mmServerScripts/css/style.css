@@ -10,10 +10,16 @@
 }
 
 html, body{
+	cursor: url(../images/normal.cur), pointer;
 	height:100%;
 	background:url(../images/wallpaper/fondo_0.jpg) no-repeat fixed;
-		background-size: cover;
+	background-size: cover;
 }
+
+a{
+		cursor: url(../images/blue.cur), url(../images/blue.cur), pointer;
+}
+
 .content{
 	min-height:100%;
 }
@@ -300,7 +306,7 @@ html, body{
 .div_mini{
 	float:left;
 	width: 70px;
-	
+	margin: 2px 2.5px;
 	-webkit-filter: brightness(0.85);/* Chrome y Safari */
 	-moz-filter: brightness(0.85);/* Mozilla */
 	-ms-filter: brightness(0.85);/* Internet Explorer */

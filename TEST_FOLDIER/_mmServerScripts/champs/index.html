@@ -4,8 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href='images/Favicon.png' rel='shortcut icon'/><!--ICONO DE BARRA DE NAVEGACION-->
 <link href="../css/style.css" rel="stylesheet" type="text/css" />
-<title>LoL-Dinger</title>
-
+<!-- InstanceBeginEditable name="TITULO" -->
+<title>Campeones</title>
+<!-- InstanceEndEditable -->
 <script>
 function LoadBG(){
 	Fecha = new Date();
@@ -16,7 +17,9 @@ function LoadBG(){
 
 </head><div class="cleaner"></div>
 
-<body>
+<!-- InstanceBeginEditable name="BODY" -->
+<body onload="prueba()">
+<!-- InstanceEndEditable -->
 
 <div class="content">
 
@@ -63,14 +66,24 @@ function LoadBG(){
 
   
 <!-- InstanceBeginEditable name="CONTAINER WRAP" -->
-<script src="../js/echo_champs.js" type="text/javascript"></script>
+<script src="../js/load.js" type="text/javascript"></script>
+<style>
+.champs{
+	background-color:#000;
+	float: left;
+	width: 1050px;
+	margin: 30px auto;
+}
+</style>
 
 <div class="container_wrap">
-	<div class="right_bar"> DERECHA </div>
-		<div class="container">
-		
-		</div>
-	</div>
+
+    <div id="champs" class="champs"></div>
+    
+    <div class="cleaner"></div>
+        
+	<div id="rigt_bar" class="right_bar">DERECHA</div>
+				
 </div>
 <!-- InstanceEndEditable -->
 

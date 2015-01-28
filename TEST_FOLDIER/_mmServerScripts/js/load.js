@@ -90,15 +90,9 @@ function prueba(){
 	
 	var names = ["Aatrox","Ahri","Akali","Alistar","Amumu","Anivia","Annie","Ashe","Azir","Blitzcrank","Brand","Braum","Caitlyn","Cassiopeia","Cho'Gath","Corki","Darius","Diana","Dr. Mundo","Draven","Elise","Evelyn","Ezreal","Fiddlesticks","Fiora","Fizz","Galio","Gangplank","Garen","Gnar","Gragas","Graves","Hecarim","Heimerdinger","Irelia","Janna","Jarvan IV","Jax","Jayce","Jinx","Kalista","Karma","Karthus","Kassadin","Katarina","Kayle","Kennen","Kha'Zix","Kog'Maw","LeBlanc","Lee Sin","Leona","Lissandra","Lucian","Lulu","Lux","Maestro Yi","Malphite","Malzahar","Maokai","Miss Fortune","Mordekaiser","Morgana","Nami","Nasus","Nautilus","Nidalee","Nocturne","Nunu","Olaf","Oriana","Phanteon","Poppy","Quinn","Rammus","Rek'Sai","Renekton","Rengar","Riven","Rumble","Ryze","Sejuani","Shaco","Shen","Shyvana","Signed","Sion","Sivir","Skarner","Sona","Soraka","Swain","Syndra","Talon","Taric","Teemo","Thresh","Tristana","Trundle","Tryndamere","Twisted Fate","Twitch","Udyr","Urgot","Varus","Vayne","Veigar","Vel'Koz","Vi","Viktor","Vladimir","Volibear","Warwick","Wukong","Xerath","Xin Zhao","Yasuo","Yorick","Zac","Zed","Ziggs","Zilean","Zyra"]
 	
-
-	
-	
 	for (var i = 1; i <= 123; i++){
-		
-		document.getElementById("champs").innerHTML += 	"<a href="+names[u]+".html><div id=\""+ids[u]+"\"class=\"div_mini\" style=\"background: url('../images/champs_mini/mid_"+ids[u]+".png'); background-size: cover;\"></div></a>"
-		u++;
-		
-		
+		document.getElementById("champs").innerHTML += "<div id=\""+ids[u]+"\" class=\"div_mini\" style=\"float:left; background: url('../images/champs_mini/mid_1.png)></div>"
+		u=u+1;
 	}// END FOR i
 	
 	
