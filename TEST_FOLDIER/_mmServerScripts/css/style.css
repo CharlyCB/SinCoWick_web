@@ -8,13 +8,14 @@
 .cleaner{
 	clear:both;
 }
+
 html, body{
 	height:100%;
+	background:url(../images/wallpaper/fondo_0.jpg) no-repeat fixed;
+		background-size: cover;
 }
 .content{
 	min-height:100%;
-	background:url(../images/wallpaper/fondo_1.jpg) no-repeat fixed;
-	background-position: center top;
 }
 .header_wrap{
 	margin:41px 0 0 0;
@@ -93,7 +94,7 @@ html, body{
 	background:url(../images/MENUbg.png);
 	width:100%;
 	height:41px;
-	z-index:2;
+	z-index:5;
 }
 .menu{
 	margin:0 auto;
@@ -104,28 +105,10 @@ html, body{
 .container_wrap{
 	margin:0 auto;
 	width:1110px;
-	padding:30px;
-}
-.container {
-	background-color: #009;
-	height: 480px;
-	width:690px;
-	float: left;
-	margin-left: 25px;
-	margin-right: 25px;
-	margin-bottom: 30px;
-	padding: 10px;
-
-}
-.right_bar{
-	background-color: #0F0;
-	float: right;
-	width: 350px;
-	margin-bottom: 30px;
+/*	padding:30px;  NO hace falta*/ 
 }
 
-
-
+	
 /*Interior del MENU*/
 /*NO TOCAR TENGO QUE ARREGLARLO*/
 	.menu_webname{
@@ -282,10 +265,10 @@ html, body{
 .copyright{
 	float: rigth;
 	width: 157px;
-	color: black;
+	color: white;
 	font-weight: bold;
 	padding: 0px;
-	margin: 87px 1118px auto;
+	margin: 22px 1118px auto;
 	font-size: 8px;
 	position: absolute;
 }
@@ -301,19 +284,17 @@ html, body{
 }
 
 .slider{
-	width: 100%;
-	height: 359px;
-	background-color: #0F3;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
 .publi{
-	width: 1109px;
+	width: 1121px;
 	height: 110px;
 	background-color: #C60;
 	background-image: url(../images/zombies.gif);
 	background-position: -100px -50px;
+	margin: 30px auto;
 }
 
 .div_mini{
@@ -329,79 +310,128 @@ html, body{
 .div_mini:hover{
 	-webkit-filter: brightness(1.5);
 }
-
-.process{
-	padding: 10px;
-	height: 400px;
-	float: left;
-	width:690px;
-	background-color: #F0F;
-	margin-left: 25px;
-	margin-bottom: 30px;
-	margin-right: 25px;
-}
-
-.guides{
-	height: 300px;
-	float: left;
-	width:690px;
-	background-color: #FF0;
-	margin-left: 25px;
-	margin-bottom: 30px;
-	margin-right: 25px;
-	padding: 10px;
-}
-
-.videos{
-	float: right;
-	margin-left: 1000px;
-	background-color: #300;
-	width: 350px;
-	height: 300px;
-}
-
-/* PRUEBAS MIAS NO TOCAR */
+/* CUARO ESTADISTICAS BLOQUE + BARRAS */
 .statics{
 	border: 2px solid #000;
 	width: 300px;
-	background-color:#999;
-}
-
-.defense{
-	height: 23px;
-	width: 40%;
-	border: 1px solid #000;
-	background-color: #0F0;
-	padding-left: 5px;
-	padding-top: 2px;
+	background-color: #999;
+	color: #FFF;
 }
 
 .attack{
 	height: 23px;
 	width: 30%;
 	border: 1px solid #000;
-	background-color: #F00;
 	padding-left: 5px;
 	padding-top: 2px;
+	background-image: url(../images/fondo_attack.jpg);
+}
+
+
+.defense{
+	height: 23px;
+	width: 40%;
+	border: 1px solid #000;
+	padding-left: 5px;
+	padding-top: 2px;
+	background-image: url(../images/fondo_defense.jpg);
 }
 
 .hechizos{
 	height: 23px;
 	width: 80%;
 	border: 1px solid #000 ;
-	background-color: #36F;
 	padding-left: 5px;
 	padding-top: 2px;
+	background-image: url(../images/fondo_hechizos.jpg);
 }
 
 .diff{
 	height: 23px;
 	width: 80%;
 	border: 1px solid #000;
-	background-color: #C09;
 	padding-left: 5px;
 	padding-top: 2px;
+	background-image: url(../images/fondo_diff.jpg);
 }
 
 
 /*************************/
+
+/* CUADRO NEW_CHAMP */
+.new_champ{
+	height: 359px;
+	margin-bottom: 30px;
+	background:url(../images/splashes/id_421.jpg) no-repeat;
+	background-size: cover;
+}
+
+.shadow_box{
+	background-color: black;
+	position:absolute;
+	width: 690px;
+	height: 143px;
+	margin: 216px 0 0 0;
+	opacity: 0.4;
+}
+
+
+/*************************/
+
+.container_mid{
+	margin: 30px 0 0 0;
+	float:left;
+	width: 690px;
+/*	background:#F00;*/
+}
+.right_bar{
+	margin: 30px 0 0 0;
+	float:right;
+	width:380px;
+	background:#0F0;
+}
+
+.novedades {
+	background-color: #009;
+	width: 690px;
+	height:15px;
+	margin-bottom: 30px;
+}
+.right_bar .right_publi{
+	width:380px;
+	height:380px;
+	background:#999;
+}
+
+
+.skill{
+	position:absolute;
+	margin: 83px 9px;
+}
+.skill ul{
+	background:#FFF;
+	list-style:none;
+}
+.skill ul li{
+	background:#00C;
+	float: left;
+	height:75px;
+	width:75px;
+	margin: 180px 5px 0 5px;
+	border:#000 solid 3px;
+}
+
+.skill ul li:hover{
+	-webkit-filter: brightness(1.5);
+}
+
+.guias_wrap{
+	background-color: #30F; 
+	margin-bottom: 30px;
+}
+
+.footer_bg{
+	background-image: url(../images/fondo_footer%20(2).png);
+	background-size: cover;
+	height: 175px;
+}

@@ -10,10 +10,16 @@
 }
 
 html, body{
+	cursor: url(../images/normal.cur), pointer;
 	height:100%;
 	background:url(../images/wallpaper/fondo_0.jpg) no-repeat fixed;
-		background-size: cover;
+	background-size: cover;
 }
+
+a{
+		cursor: url(../images/blue.cur), url(../images/blue.cur), pointer;
+}
+
 .content{
 	min-height:100%;
 }
@@ -108,7 +114,7 @@ html, body{
 /*	padding:30px;  NO hace falta*/ 
 }
 
-
+	
 /*Interior del MENU*/
 /*NO TOCAR TENGO QUE ARREGLARLO*/
 	.menu_webname{
