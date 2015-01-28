@@ -319,47 +319,41 @@ a{
 }
 /* CUARO ESTADISTICAS BLOQUE + BARRAS */
 .statics{
-	border: 2px solid #000;
 	width: 300px;
-	background-color: #999;
 	color: #FFF;
 }
 
 .attack{
 	height: 23px;
-	width: 30%;
 	border: 1px solid #000;
-	padding-left: 5px;
-	padding-top: 2px;
 	background-image: url(../images/fondo_attack.jpg);
+	margin: 0 0 2px 0;
+	border-radius: 0 5px 5px 0;
 }
 
 
 .defense{
 	height: 23px;
-	width: 40%;
 	border: 1px solid #000;
-	padding-left: 5px;
-	padding-top: 2px;
 	background-image: url(../images/fondo_defense.jpg);
+	margin: 0 0 2px 0;
+	border-radius: 0 5px 5px 0;
 }
 
-.hechizos{
+.hechizo{
 	height: 23px;
-	width: 80%;
 	border: 1px solid #000 ;
-	padding-left: 5px;
-	padding-top: 2px;
 	background-image: url(../images/fondo_hechizos.jpg);
+	margin: 0 0 2px 0;
+	border-radius: 0 5px 5px 0;
 }
 
 .diff{
 	height: 23px;
-	width: 80%;
 	border: 1px solid #000;
-	padding-left: 5px;
-	padding-top: 2px;
 	background-image: url(../images/fondo_diff.jpg);
+	margin: 0 0 2px 0;
+	border-radius: 0 5px 5px 0;
 }
 
 
@@ -368,9 +362,9 @@ a{
 /* CUADRO NEW_CHAMP */
 .new_champ{
 	height: 359px;
-	margin-bottom: 30px;
 	background:url(../images/splashes/id_421.jpg) no-repeat;
 	background-size: cover;
+	margin: 0 0 30px 0;
 }
 
 .shadow_box{
@@ -386,7 +380,7 @@ a{
 /*************************/
 
 .container_mid{
-	margin: 30px 0 0 0;
+	margin: 0 0 30px 0;
 	float:left;
 	width: 690px;
 /*	background:#F00;*/
@@ -401,8 +395,8 @@ a{
 .novedades {
 	background-color: #009;
 	width: 690px;
-	height:15px;
 	margin-bottom: 30px;
+	padding: 0 0 0 10px;
 }
 .right_bar .right_publi{
 	width:380px;
