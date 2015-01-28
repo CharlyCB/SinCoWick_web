@@ -105,9 +105,8 @@ html, body{
 .container_wrap{
 	margin:0 auto;
 	width:1110px;
-	padding:30px;
+/*	padding:30px;  NO hace falta*/ 
 }
-
 
 
 /*Interior del MENU*/
@@ -295,6 +294,7 @@ html, body{
 	background-color: #C60;
 	background-image: url(../images/zombies.gif);
 	background-position: -100px -50px;
+	margin: 30px auto;
 }
 
 .div_mini{

@@ -12,7 +12,6 @@ function LoadBG(){
     //obtener id a usar dependiendo del dia: parseInt(9/30*Fecha.getDate());	
 	document.getElementById('content').style.background="url('images/wallpaper/fondo_"+parseInt(9/30*Fecha.getDate())+".jpg') no-repeat top";
 }
-
 </script>
 
 </head><div class="cleaner"></div>
@@ -20,6 +19,7 @@ function LoadBG(){
 <body>
 
 <div class="content">
+
   <div class="header_wrap">
     <div class="menu_wrap">
       <div class="menu">
@@ -40,7 +40,7 @@ function LoadBG(){
         </ul>
       </div>
     </div>
-    <div class="claner"></div>
+    <div class="cleaner"></div>
     <div class="header">
       <div class="logo"></div>
       <div class="webname"></div>
@@ -52,17 +52,17 @@ function LoadBG(){
         </ul>
       </div>
     </div>
-  </div>
+    
+    <div class="publi">
+    <h1>PUBLICIDAD</h1>
+	</div>
+    
+  </div><!--class="header_wrap"-->
   <div class="cleaner"></div>
   
+
   
 <!-- TemplateBeginEditable name="CONTAINER WRAP" -->
-
-
-
-
-
-
 
 <!-- TemplateEndEditable -->
 
