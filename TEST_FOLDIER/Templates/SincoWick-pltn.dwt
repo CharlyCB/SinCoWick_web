@@ -26,9 +26,9 @@ function LoadBG(){
   <div class="header_wrap">
     <div class="menu_wrap">
       <div class="menu">
+<!-- TemplateBeginEditable name="LinksRelativos" -->
         <a href="index.html"><div class="menu_webname"></div></a>
         <ul id="menu">
-<!-- TemplateBeginEditable name="LinksRelativos" -->
           <li id="firstchild"><a href="index.html">Inicio</a></li>
           <li><a href="guides">Guías</a></li>
           <li><a href="champs">Campeones</a></li>
