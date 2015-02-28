@@ -11,49 +11,9 @@
 
 <script src="js/jquery-ui.js" type="text/javascript"></script>
 <script src="js/jquery-ui.min.js" type="text/javascript"></script>
-
+<script src="js/jquery.functions.js" type="text/javascript"></script>
 <script>
 	//funcion jquery de obtencion de campeones
-	function getfreechamps(){
-		$.ajax({
-			url: 'http://gehena.byethost7.com/pruebasincowick/try001.php',
-			cache: false,
-			type: "GET",
-			//LOS DATOS SON EL RESPONSE ECHO JSON
-			success: function(datos){
-				datos = JSON.parse(datos);
-				
-				var id = [];
-				for(var i = 0; i < 10; i++){
-					id[i] = datos.champions[i].id;
-				}
-				var img;
-				var logo = 'lgid';
-				$('#slider').html("");
-				
-				for(var b = 0; b < 10; b++){
-					img = 'spid'+id[b];
-					$('#slider').append(
-						$("<div>",{
-							class: 'minislide',
-							onclick: "bigimg('"+img+"');" ,
-							id: img
-						}).append( $("<div>", {
-							class:'biglogo',
-							id:logo+id[b]
-							}).append( $("<a>" ,{
-								href:'#'
-							})
-							)
-						)
-					);
-				}
-				
-			}
-		});
-	}
-	
-
 	getfreechamps();
 </script>
 </head>
@@ -62,45 +22,6 @@
 	<a onclick="closeslider()" id="close"></a>
     <div class="slide_min" onclick="bigslide();" id="slider">
 
-   		<div class="minislide" onclick="bigimg('spid1');" id="spid1">
-        	<div class="biglogo" id="lgid1"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid2');" id="spid2">
-        	<div class="biglogo" id="lgid2"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid3');" id="spid3">
-        	<div class="biglogo" id="lgid3"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid4');" id="spid4">
-        	<div class="biglogo" id="lgid4"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid5');" id="spid5">
-        	<div class="biglogo" id="lgid5"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid6');" id="spid6">
-        	<div class="biglogo" id="lgid6"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid7');" id="spid7">
-        	<div class="biglogo" id="lgid7"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid8');" id="spid8">
-        	<div class="biglogo" id="lgid8"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid9');" id="spid9">
-        	<div class="biglogo" id="lgid9"><a href="#"></a></div>
-        </div>
-
-   		<div class="minislide" onclick="bigimg('spid10');" id="spid10">
-        	<div class="biglogo" id="lgid10"><a href="#"></a></div>
-        </div>
         
     </div>
 </div>
