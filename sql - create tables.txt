@@ -1,0 +1,72 @@
+CREATE TABLE IF NOT EXISTS `champs` (
+  `idchmp` INT NOT NULL,
+  `nmchmp` VARCHAR(65) NOT NULL,
+  `ttlchmp` VARCHAR(130) NOT NULL,
+  `chdate` DATE NULL,
+  PRIMARY KEY (`idchmp`));
+  
+  CREATE TABLE IF NOT EXISTS `items` (
+  `it_id` INT NOT NULL,
+  `nmitms` VARCHAR(150) NOT NULL,
+  `statitms` VARCHAR(250) NOT NULL,
+  `txtitms` VARCHAR(1000) NOT NULL,
+  PRIMARY KEY (`it_id`));
+  
+  CREATE TABLE IF NOT EXISTS `spell` (
+  `sp_id` INT NOT NULL,
+  `nmspll` VARCHAR(90) NOT NULL,
+  `costspll` VARCHAR(90) NOT NULL,
+  `cdspll` VARCHAR(45) NOT NULL,
+  `txtspll` VARCHAR(1000) NOT NULL,
+  `sumspll` INT(1) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`sp_id`));
+  
+  CREATE TABLE IF NOT EXISTS `reco_item` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `items_it_id` INT NOT NULL,
+  `champs_idchmp` INT NOT NULL,
+  PRIMARY KEY (`id`),
+  INDEX `fk_reco_item_items_idx` (`items_it_id` ASC),
+  INDEX `fk_reco_item_champs1_idx` (`champs_idchmp` ASC),
+  CONSTRAINT `fk_reco_item_items`
+    FOREIGN KEY (`items_it_id`)
+    REFERENCES `items` (`it_id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_reco_item_champs1`
+    FOREIGN KEY (`champs_idchmp`)
+    REFERENCES `champs` (`idchmp`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION);
+	
+	CREATE TABLE IF NOT EXISTS `champ_spell` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `spell_sp_id` INT NOT NULL,
+  `champs_idchmp` INT NOT NULL,
+  PRIMARY KEY (`id`),
+  INDEX `fk_champ_spell_spell1_idx` (`spell_sp_id` ASC),
+  INDEX `fk_champ_spell_champs1_idx` (`champs_idchmp` ASC),
+  CONSTRAINT `fk_champ_spell_spell1`
+    FOREIGN KEY (`spell_sp_id`)
+    REFERENCES `spell` (`sp_id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_champ_spell_champs1`
+    FOREIGN KEY (`champs_idchmp`)
+    REFERENCES `champs` (`idchmp`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION);
+	
+	CREATE TABLE IF NOT EXISTS `counter` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `champs_idchmp` INT NOT NULL,
+  `win` INT NOT NULL DEFAULT 0,
+  `lost` INT NOT NULL DEFAULT 0,
+  `vs_champ` INT NOT NULL,
+  PRIMARY KEY (`id`),
+  INDEX `fk_counter_champs1_idx` (`champs_idchmp` ASC),
+  CONSTRAINT `fk_counter_champs1`
+    FOREIGN KEY (`champs_idchmp`)
+    REFERENCES `champs` (`idchmp`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION);
