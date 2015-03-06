@@ -54,8 +54,8 @@ a{
 	
 }
 .webname{
-	position:absolute;
-	background:url(../images/LOL-Dinger-NAME.png) no-repeat;
+	position: absolute;
+	background: url(../images/LOL-Dinger-NAME.png) no-repeat;
 	background-size:contain;
 	height:82px;
 	width:400px;
