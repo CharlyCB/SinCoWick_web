@@ -371,10 +371,10 @@ a{
 
 .border_new_champ{
 	background-image: url(../images/Marco_newchamp.png);
-	z-index: 100;
 	height: 359px;
 	width:690px;
 	border-radius: 10px;
+	z-index: 50;
 }
 
 .shadow_box{
@@ -385,11 +385,13 @@ a{
 	margin: 216px 0 0 0;
 	opacity: 0.4;
 	border-radius: 0 0 10px 10px;
+	z-index: 10;
 }
 
 .skill{
 	position:absolute;
 	margin: 65px 31px;
+	z-index: 100;
 }
 .skill ul{
 	background:#FFF;
