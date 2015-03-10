@@ -54,8 +54,8 @@ a{
 	
 }
 .webname{
-	position:absolute;
-	background:url(../images/LOL-Dinger-NAME.png) no-repeat;
+	position: absolute;
+	background: url(../images/LOL-Dinger-NAME.png) no-repeat;
 	background-size:contain;
 	height:82px;
 	width:400px;
@@ -100,7 +100,7 @@ a{
 	background:url(../images/MENUbg.png);
 	width:100%;
 	height:41px;
-	z-index:5;
+	z-index:11;
 }
 .menu{
 	margin:0 auto;
@@ -306,6 +306,7 @@ a{
 .div_mini{
 	float:left;
 	width: 70px;
+	height: 70px;
 	margin: 2px 2.5px;
 	-webkit-filter: brightness(0.85);/* Chrome y Safari */
 	-moz-filter: brightness(0.85);/* Mozilla */
@@ -318,47 +319,42 @@ a{
 }
 /* CUARO ESTADISTICAS BLOQUE + BARRAS */
 .statics{
-	border: 2px solid #000;
 	width: 300px;
-	background-color: #999;
 	color: #FFF;
+	border: solid 1px #000;
 }
 
 .attack{
 	height: 23px;
-	width: 30%;
 	border: 1px solid #000;
-	padding-left: 5px;
-	padding-top: 2px;
 	background-image: url(../images/fondo_attack.jpg);
+	margin: 0 0 2px 0;
+	border-radius: 0 5px 5px 0;
 }
 
 
 .defense{
 	height: 23px;
-	width: 40%;
 	border: 1px solid #000;
-	padding-left: 5px;
-	padding-top: 2px;
 	background-image: url(../images/fondo_defense.jpg);
+	margin: 0 0 2px 0;
+	border-radius: 0 5px 5px 0;
 }
 
-.hechizos{
+.hechizo{
 	height: 23px;
-	width: 80%;
 	border: 1px solid #000 ;
-	padding-left: 5px;
-	padding-top: 2px;
 	background-image: url(../images/fondo_hechizos.jpg);
+	margin: 0 0 2px 0;
+	border-radius: 0 5px 5px 0;
 }
 
 .diff{
 	height: 23px;
-	width: 80%;
 	border: 1px solid #000;
-	padding-left: 5px;
-	padding-top: 2px;
 	background-image: url(../images/fondo_diff.jpg);
+	margin: 0 0 0 0;
+	border-radius: 0 5px 5px 0;
 }
 
 
@@ -367,9 +363,18 @@ a{
 /* CUADRO NEW_CHAMP */
 .new_champ{
 	height: 359px;
-	margin-bottom: 30px;
-	background:url(../images/splashes/id_421.jpg) no-repeat;
+	background:url(../images/splashes/Bardo.jpg) no-repeat;
 	background-size: cover;
+	margin: 0 0 30px 0;
+	border-radius: 10px;
+}
+
+.border_new_champ{
+	background-image: url(../images/Marco_newchamp.png);
+	height: 359px;
+	width:690px;
+	border-radius: 10px;
+	z-index: 50;
 }
 
 .shadow_box{
@@ -379,40 +384,14 @@ a{
 	height: 143px;
 	margin: 216px 0 0 0;
 	opacity: 0.4;
+	border-radius: 0 0 10px 10px;
+	z-index: 10;
 }
-
-
-/*************************/
-
-.container_mid{
-	margin: 30px 0 0 0;
-	float:left;
-	width: 690px;
-/*	background:#F00;*/
-}
-.right_bar{
-	margin: 30px 0 0 0;
-	float:right;
-	width:380px;
-	background:#0F0;
-}
-
-.novedades {
-	background-color: #009;
-	width: 690px;
-	height:15px;
-	margin-bottom: 30px;
-}
-.right_bar .right_publi{
-	width:380px;
-	height:380px;
-	background:#999;
-}
-
 
 .skill{
 	position:absolute;
-	margin: 83px 9px;
+	margin: 65px 31px;
+	z-index: 10;
 }
 .skill ul{
 	background:#FFF;
@@ -430,6 +409,36 @@ a{
 .skill ul li:hover{
 	-webkit-filter: brightness(1.5);
 }
+
+/*************************/
+
+.container_mid{
+	margin: 0 0 30px 0;
+	float:left;
+	width: 690px;
+/*	background:#F00;*/
+}
+.right_bar{
+	margin: 0px 0px 30px 40px;
+	float:right;
+	width:380px;
+	background:#0F0;
+}
+
+.novedades {
+	background-color: #009;
+	width: 690px;
+	margin-bottom: 30px;
+	padding: 0 0 0 10px;
+}
+.right_bar .right_publi{
+	width:380px;
+	height:380px;
+	background:#999;
+}
+
+
+
 
 .guias_wrap{
 	background-color: #30F; 

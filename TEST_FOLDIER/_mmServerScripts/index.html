@@ -4,7 +4,7 @@
 <!-- InstanceBeginEditable name="HEAD" -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href='images/Favicon.png' rel='shortcut icon'/><!--ICONO DE BARRA DE NAVEGACION-->
-<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/slider.css" rel="stylesheet" type="text/css" />
 
 <title>LoL-Dinger</title>
@@ -19,6 +19,9 @@
 </head>
 <div class="cleaner"></div>
 <!-- InstanceBeginEditable name="BODY" -->
+<script>
+getfreechamps();
+</script>
 <body>
 <!-- InstanceEndEditable -->
 
@@ -28,8 +31,8 @@
     <div class="menu_wrap">
       <div class="menu">
 <!-- InstanceBeginEditable name="LinksRelativos" -->
-        <a href="index.html"><div class="menu_webname"></div></a>
         <ul id="menu">
+        <div class="menu_webname"></div>
           <li id="firstchild"><a href="index.html">Inicio</a></li>
           <li><a href="guides">Guías</a></li>
           <li><a href="champs">Campeones</a></li>
@@ -70,75 +73,90 @@
   
 
   
-<!-- InstanceBeginEditable name="CONTAINER WRAP" -->
-
+<!-- InstanceBeginEditable name="CONTAINER WRAP" -->	
 <div class="container_wrap">
-	
-    <div class="publi">
-    <h1>PUBLICIDAD</h1>
-    </div>
-    
+        <!-- Div del Slider -->
+            <link href="css/slider.css" rel="stylesheet" type="text/css" />
+            <div class="slide_cont">
+                <a onclick="closeslider()" id="close"></a>
+                <div class="slide_min" onclick="bigslide();" id="slider">
+                
 
-	<div class="slider">
-	<h1>SLIDER</h1>
-    </div>
-    
-    <div id="right_bar" class="right_bar">
-    </div>
-
-    <div id="process" class="process">
-    <h1>PROCESS</h1>
-
-<!-- MI PRUEBA DE ESTADISTICAS "http://es.leagueoflegends-es.wikia.com/wiki/Lista_de_campeones"-->
-	<script type="text/javascript" src="js/stats.js"></script>
-
-    <div id="stats" class="stats">
-        AHRI
-        <div id='2champ' class='statics'>						<!-- BLOQUE STADISTICAS -->
-            <div id='2champ' class='attack'>Ataque</div>		<!-- BARRA DE ATAQUE (0-100)% -->
-            <div id='2champ' class='defense'>Defensa</div>		<!-- BARRA DE DEFENSA (0-100)% -->
-            <div id='2champ' class='hechizos'>Hechizo</div>		<!-- BARRA DE PODER DE HABILIDAD (0-100)% -->
-            <div id='2champ' class='diff'>Dificultad</div>		<!-- BARRA DE DIFICULTAD (0-100)% -->
-        </div>
-        
-        SHACO
-        <div id='35champ' class='statics'>
-            <div id='35champ' class='attack'>Ataque</div>
-            <div id='35champ' class='defense'>Defensa</div>
-            <div id='35champ' class='hechizos'>Hechizo</div>
-            <div id='35champ' class='diff'>Dificultad</div>
-        </div>
-        
-
-    </div>
-   
-    </div>
-    
-    
- 	<div id="container" class="container">
-    <button onclick="createstats()">MOSTRAR STATS!!</button> <!-- CREA TABLAS DE STATS SEGUN EL CAMPEON (BASE DE DATOS) -->
-    <h1>NOVEDADES</h1>
+                    
+                </div>
+             </div>
+<!-- Fin Div Slider -->
     <div class="cleaner"></div>
+    <div class="container_mid">
+        <!-- Entre cada Seccion va un Cleaner para que no se superpongan! -->
+        <div class="cleaner"></div>
+        <!-- Wrap para el ultimo Champ -->
+		<div class="new_champ">
+            <div class="border_new_champ">
+                 <div class="shadow_box"></div>
+                 <div class="skill">
+                    <ul>
+                        <li><img src="images/passives/Bardo_Passive.png"     width="75" height="75" /></li>
+                        <li><img src="images/champ_spells/Bardo/BardoQ.png" width="75" height="75" /></li>
+                        <li><img src="images/champ_spells/Bardo/BardoW.png" width="75" height="75" /></li>
+                        <li><img src="images/champ_spells/Bardo/BardoE.png" width="75" height="75" /></li>
+                        <li><img src="images/champ_spells/Bardo/BardoR.png" width="75" height="75" /></li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+        <!-- Fin Wrap Ultimo Champ-->
+        <div class="cleaner"></div>
+    	<!--Wrap para el div de Novedades-->
+    	<div class="novedades">
+        
+        <!--CAJA STATS REK'SAI-->
+		<h1>Así quedaría más o menos :)</h1>
+        <div id="421" class="statics">
+        	<div class="attack" style="width:40%"><img src="images/stats_icon/Attackpower.png" width="24" height="23" /></div>
+            <div class="defense" style="width:40%"><img src="images/stats_icon/20px-Defensepower.png" width="24" height="23" /></div>
+            <div class="hechizo" style="width:50%"><img src="images/stats_icon/20px-Abilitypower.png" width="24" height="23" /></div>
+            <div class="diff" style="width:90%"><img src="images/stats_icon/20px-Difficulty.png" width="24" height="23" /></div>
+        </div> <!--FIN CAJA STATS REK'SAI-->
+        Pendiente de retocar y dejar bonito, pero esa es la idea<br />
+        NOVEDADES
+        </div>
+   		<!-- Fin Novedades -->
+   		<div class="cleaner"></div>
+    	<!-- wrap para Guias nuevas-->
+	    <div class="guias_wrap">
+        GUIAS
+        </div>
+        <!-- Fin de wrap para guias -->
     </div>
-    
-    
-<!----------------------------------------------------------------> 
-    <div class="guides">
-    <h1>GUIAS</h1>
+	<!-- Fin Container_mid -->
+        <div class="right_bar">
+    	<!-- Parte de Face y Twitta -->
+        <div class="sociales">
+        
+        </div>
+        <!-- fin sociales -->
+        <div class="cleaner"></div>
+        <!-- Lista de videos -->
+        <div class="videos_wrap">
+        
+        </div>
+    	<!-- fin videos -->
+        <div class="cleaner"></div>
+        <!-- Propaganda inferior derecha -->
+    	<div class="right_publi">
+        	<div style="position:absolute;">
+				<div style="background:url(images/chall/fondo_header.png) no-repeat; background-size: contain; width:300px; height:200px;"></div>
+        	</div>
+        </div>
+        <!-- Fin propaganda derecha -->
+    <!-- Fin Right bar -->    
+    <!-- contenedor lado derecho -->
     </div>
-    
-    <div class="videos">
-    <h1>VIDEOS</h1>
-    </div>
-    
-    <div class="cleaner"></div>
-  </div>
+    <!-- Fin de Container_wrap-->
 </div>
-
-
-
-
-
+</div>
+<div class="cleaner"></div>
 <!-- InstanceEndEditable -->
 
 <div class="footer">
