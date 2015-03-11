@@ -260,6 +260,7 @@ a{
 	background:url(../images/HeimerMINIico.png) #000 no-repeat;
 	background-size: contain;
 	background-position:right;
+	z-index: 10;
 }
 .footer .legal{
 	margin: 0 auto;
