@@ -410,6 +410,17 @@ a{
 	-webkit-filter: brightness(1.5);
 }
 
+#description{
+	display:none;
+	background-image:url(../images/BOC2.png);
+}
+
+.skill:hover #description{
+	
+}
+
+
+
 /*************************/
 
 .container_mid{
@@ -427,7 +438,7 @@ a{
 
 .novedades {
 	background-color: #009;
-	width: 690px;
+	width: 680px;
 	margin-bottom: 30px;
 	padding: 0 0 0 10px;
 }

@@ -269,7 +269,7 @@ a{
 }
 
 .copyright{
-	float: rigth;
+	/*float: rigth;*/
 	width: 157px;
 	color: white;
 	font-weight: bold;
@@ -410,6 +410,24 @@ a{
 	-webkit-filter: brightness(1.5);
 }
 
+.description{
+	background-image: linear-gradient(to bottom,#002E5E,#0059FF);
+	border: 1px solid #6FF;
+	padding: 10px;
+	border-radius: 10px;
+/*	opacity: 0.9;*/
+	position: absolute;
+	top: 82px;
+	left: 50px;
+}
+
+#spell:hover #description{
+	display: block;
+	-webkit-filter: brightness(1.5);
+}
+
+
+
 /*************************/
 
 .container_mid{
@@ -446,7 +464,8 @@ a{
 }
 
 .footer_bg{
-	background-image: url(../images/fondo_footer%20(2).png);
+	background-image: url(../images/fondo_footer.png);
 	background-size: cover;
 	height: 175px;
+	z-index: -10;
 }
