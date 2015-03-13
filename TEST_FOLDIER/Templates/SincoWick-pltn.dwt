@@ -75,7 +75,6 @@
 <!-- TemplateEndEditable -->
 
 <div class="footer">
-<div class="footer_bg">
     <div class="legal">
         <ul>
             <li><a href="#">Politica de Cookies</a></li>
@@ -91,10 +90,7 @@
         &copy; 2015 Gabriel Ramos Cozzi.
         <br />&copy; 2015 Carlos Coloma Bordehore
         <br /> Todos los derechos reservados.
-    </div>
-    
-    </div><!--class="footer_bg"-->
-    
+    </div>    
 </div><!--class="footer"-->
 
 
