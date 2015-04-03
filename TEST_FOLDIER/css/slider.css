@@ -649,4 +649,8 @@
 	#lgid429{background:url(../images/marco_champ/mc_429.png) no-repeat; background-size:100% 100%;}
 
 /**************************************  254 - 429 ***********************************************/
+	#spid432{background:url(../images/splashes/id_432.jpg) no-repeat;background-size:cover;}
+	.slide_min #spid432{	background-position: -151px 0px;}
+	#lgid432{background:url(../images/marco_champ/mc_432.png) no-repeat; background-size:100% 100%;}
+
 /**************************************     FIN    ***********************************************/
