@@ -257,7 +257,8 @@ a{
 
 .footer{
 	height:175px;
-	background:url(../images/HeimerMINIico.png) #000 no-repeat;
+	background:url(../images/HeimerMINIico.png) no-repeat #000;
+	/*background-image: linear-gradient(to bottom, #fff,#000);*/
 	background-size: contain;
 	background-position:right;
 	z-index: 10;
