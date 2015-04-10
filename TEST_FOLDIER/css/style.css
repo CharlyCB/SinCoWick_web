@@ -527,14 +527,14 @@ a{
     background: #333;
     background: rgba(0,0,0,.8);
     border-radius: 5px;
-    bottom: 26px;
+    bottom: 100px;
     color: #fff;
     content: attr(title);
     left: 20%;
     padding: 5px 15px;
     position: absolute;
     z-index: 98;
-    width: 220px;
+	widtg: 100%;
 }
 
 .tooltip:hover:before{
@@ -545,7 +545,7 @@ a{
     left: 50%;
     position: absolute;
     z-index: 99;
-}	
+}
 
 
 
