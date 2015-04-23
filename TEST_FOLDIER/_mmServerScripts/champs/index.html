@@ -4,7 +4,7 @@
 <!-- InstanceBeginEditable name="HEAD" -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href='images/Favicon.png' rel='shortcut icon'/><!--ICONO DE BARRA DE NAVEGACION-->
-<link href="../../css/style.css" rel="stylesheet" type="text/css" />
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/slider.css" rel="stylesheet" type="text/css" />
 
 <title>LoL-Dinger</title>
@@ -19,7 +19,7 @@
 </head>
 <div class="cleaner"></div>
 <!-- InstanceBeginEditable name="BODY" -->
-<body onload="prueba()">
+<body onload="champ_list()">
 <!-- InstanceEndEditable -->
 
 <div class="content">
@@ -28,9 +28,9 @@
     <div class="menu_wrap">
       <div class="menu">
 <!-- InstanceBeginEditable name="LinksRelativos" -->
-        <a href="index.html"><div class="menu_webname"></div></a>
         <ul id="menu">
-          <li id="firstchild"><a href="index.html">Inicio</a></li>
+        <a href="../index.html"><div class="menu_webname"></div></a>
+          <li id="firstchild"><a href="../index.html">Inicio</a></li>
           <li><a href="guides">Guías</a></li>
           <li><a href="champs">Campeones</a></li>
           <li><a href="data">Datos</a>
@@ -76,19 +76,25 @@
 .champs{
 	background-color:#000;
 	float: left;
-	width: 1050px;
-	margin: 30px auto;
+	width: 675px;
+	margin: 0 0 30px 0;
 }
 </style>
 
 <div class="container_wrap">
-
+	<!--DIV DE LOS CAMPEONES-->
     <div id="champs" class="champs"></div>
     
+    <!--DIV DE BARRA DERECHA-->
+	<div id="rigt_bar" class="right_bar"><legend> Datos recuperados: </legend>DERECHA</div>
+    
+	<!--CLEANER-->
     <div class="cleaner"></div>
-        
-	<div id="rigt_bar" class="right_bar">DERECHA</div>
-				
+
+
+
+	<!--CLEANER-->
+	<div class="cleaner"></div>
 </div>
 <!-- InstanceEndEditable -->
 

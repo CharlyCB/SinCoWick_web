@@ -257,7 +257,8 @@ a{
 
 .footer{
 	height:175px;
-	background:url(../images/HeimerMINIico.png) #000 no-repeat;
+	background:url(../images/HeimerMINIico.png) no-repeat #000;
+	/*background-image: linear-gradient(to bottom, #fff,#000);*/
 	background-size: contain;
 	background-position:right;
 	z-index: 10;
@@ -364,7 +365,7 @@ a{
 /* CUADRO NEW_CHAMP */
 .new_champ{
 	height: 359px;
-	background:url(../images/splashes/Bardo.jpg) no-repeat;
+	background:url(../images/splashes/id_432.jpg) no-repeat;
 	background-size: cover;
 	margin: 0 0 30px 0;
 	border-radius: 10px;
@@ -412,20 +413,63 @@ a{
 }
 
 .description{
-	background-image: linear-gradient(to bottom,#002E5E,#0059FF);
-	border: 1px solid #6FF;
+	color: white;
+	font-size:10px;
+	width: 394px; 
+	background-color:RGBA(66,66,66,0.8);
 	padding: 10px;
-	border-radius: 10px;
-/*	opacity: 0.9;*/
-	position: absolute;
-	top: 82px;
-	left: 50px;
+	border-radius: 0px;
+	border: 2px solid #3FF;
+	text-align: justify;
 }
 
-#spell:hover #description{
-	display: block;
-	-webkit-filter: brightness(1.5);
+.description .title{
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: underline;
 }
+
+#pasive{
+	position: absolute;
+	top: -50px;
+	left: 5px;
+	display: none;
+	transition: display 2s;
+}
+
+.skill ul li:hover #pasive{
+	display: block;
+	transition: display 2s;
+}
+
+#Q{
+	position: absolute;
+	top: 25px;
+	left: 95px;
+	display: none;
+}
+
+#W{
+	position: absolute;
+	top: 50px;
+	left: 185px;
+	display: none;
+}
+
+#E{
+	position: absolute;
+	top: 50px;
+	left: 10px;
+	display: none;
+}
+
+#R{
+	position: absolute;
+	top: 50px;
+	left: 10px;
+	display: none;
+}
+
 
 
 
@@ -454,6 +498,7 @@ a{
 	width:380px;
 	height:380px;
 	background:#999;
+	margin: 0 0 10px 0;
 }
 
 
@@ -470,3 +515,56 @@ a{
 	height: 175px;
 	z-index: -10;
 }
+/*************************************************************************************************************/
+/* TOOLTIP */
+
+.tooltip{
+    display: inline;
+    position: relative;
+}
+
+.tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 100px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+	width: 350px;
+}
+
+.tooltip:hover:before{
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+	border-color: #3FF;
+    bottom: 20px;
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
