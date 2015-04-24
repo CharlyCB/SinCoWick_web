@@ -548,8 +548,16 @@ a{
     z-index: 99;
 }
 
-
-
+/*PAJARRACO DE TUITAR*/
+#theBird{
+		display: block;
+		  left: 1028px;
+		  top: 1935px;
+		  width: 64px;
+		  height: 64px;
+		  z-index: 947;
+		  background: url(http://u.jimdo.com/www21/o/s4e9df44a0ad8ccd8/img/iffeafe7e991f963f/1341590653/std/image.png) 0px 0px no-repeat transparent;
+}
 
 
 
