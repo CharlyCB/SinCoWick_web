@@ -365,14 +365,14 @@ a{
 /* CUADRO NEW_CHAMP */
 .new_champ{
 	height: 359px;
-	background:url(../images/splashes/id_432.jpg) no-repeat;
+	background:url(../images/splashes/Ekko.jpg) no-repeat;
 	background-size: cover;
 	margin: 0 0 30px 0;
 	border-radius: 10px;
 }
 
 .border_new_champ{
-	background-image: url(../images/Marco_newchamp.png);
+	background-image: url(../images/Marco_newchampEkko.png);
 	height: 359px;
 	width:690px;
 	border-radius: 10px;
